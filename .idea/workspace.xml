@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HSKp8ryD01GjA1cyBOXxoqAqjl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/jahid/Documents/Projects/darisonline",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/jahid/Documents/Projects/Preply/node_modules/prettier",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="" />
+      <created>1668273224378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668273224378</updated>
+      <workItem from="1668273225839" duration="575000" />
+      <workItem from="1668320685996" duration="3425000" />
+      <workItem from="1668326363442" duration="5816000" />
+      <workItem from="1668344123820" duration="10425000" />
+      <workItem from="1668400997231" duration="7698000" />
+      <workItem from="1668415261822" duration="6216000" />
+      <workItem from="1668438715169" duration="6468000" />
+      <workItem from="1668483696885" duration="6139000" />
+      <workItem from="1668496774442" duration="1671000" />
+      <workItem from="1668518434781" duration="2402000" />
+      <workItem from="1668573161210" duration="10653000" />
+      <workItem from="1668596361045" duration="15769000" />
+      <workItem from="1668660320252" duration="9550000" />
+      <workItem from="1668685970325" duration="10304000" />
+      <workItem from="1668704407677" duration="9000" />
+      <workItem from="1668830180369" duration="2205000" />
+      <workItem from="1668955553300" duration="15780000" />
+      <workItem from="1669008609740" duration="6216000" />
+      <workItem from="1669020474179" duration="1095000" />
+      <workItem from="1669045752827" duration="1840000" />
+      <workItem from="1669190181116" duration="1899000" />
+      <workItem from="1669355950724" duration="5626000" />
+      <workItem from="1669791015602" duration="4979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile | Darisonline</title>
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    href="https://static.preply.com/ds/icons/favicon-ua.ico"
+    sizes="any"
+  />
+  <!-- Rubik Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Tailwind Css Pack -->
+  <link href="./dist/css/tailwind/tailwind.css" rel="stylesheet" />
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Css -->
+  <link rel="stylesheet" href="./dist/css/index.css" />
+</head>
+<body class="antialiased">
+<main>
+  <!-- ======= Header || START ======= -->
+  <header class="header container px-2 mx-auto">
+    <section class="header_container">
+      <div class="logo_container">
+        <a href="index.html" class="logo">
+          <img src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+        </a>
+      </div>
+      <div  class="nav_container md:flex md:justify-between md:flex-1 hidden">
+        <nav>
+          <ul>
+            <li>
+              <a href="find-teacher.html">Find Tutors</a>
+            </li>
+            <li>
+              <a href="#">Group Classes</a>
+            </li>
+            <li>
+              <a href="#">Corporate Training</a>
+            </li>
+            <li>
+              <a href="#">Become a tutor</a>
+            </li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="language_select">
+          <p>English <span></span></p>
+        </div>
+      </div>
+      <div class="userauth_container">
+        <a href="login.html"  class="userauth_container--login hidden md:block">
+          <span> Login </span>
+        </a>
+        <a href="login.html" class="userauth_container--bar block md:hidden">
+             <span>
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+  </header>
+  <!-- ======= Header || END ======= -->
+
+  <!-- ======= Profile Section  || START ======= -->
+  <main class="profile">
+    <div class="profile_container container px-2 mx-auto">
+      <!-- Profile Basic Info  -->
+      <div class="user_menu_container">
+        <div class="flex flex-col md:flex-row">
+          <!--    Profile left  menu -->
+          <div class="profile_left w-full md:w-4/12 lg:w-3/12 mx-auto my-2 lg:my-4 md:mr-2 lg:mr-4   bg-white shadow">
+            <!--   Profile menu list      -->
+            <div>
+              <div class="flex p-4 text-center md:my-8 md:block">
+                <div class="w-2/5 md:w-full">
+                  <div class="side_profile_img relative w-24 mx-auto mb-4 overflow-hidden rounded-full md:w-32"
+                       style="border-radius: 2%;">
+                    <img
+                      src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                      class="custom-image m-auto" alt="Profile">
+                    <button
+                      class="profile_pic_chnage_btn  absolute bottom-0 hidden px-8 py-1 text-gray-100 bg-gray-900">
+                      <span class="flex items-center">
+                        <span class="text-sm">Edit</span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="w-3/5 md:w-full flex flex-col justify-center items-center">
+                  <h2 class="text-xl text-center font-medium text-gray-700">
+                    <span class="inline-flex items-center">Jahid
+					<span class="ml-2">
+            <svg color="#34A852" fill="none" height="18" size="18" stroke="currentColor"
+                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                 width="18" xmlns="http://www.w3.org/2000/svg" style="color: rgb(52, 168, 82);"><path
+              d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path> <polyline
+              points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </span>
+                    </span>
+                  </h2>
+                  <h4 class="text-center text-gray-600">01869653016</h4>
+                </div>
+              </div>
+              <!--      Profile-menu-list    -->
+              <div class="mb-4">
+                <ul class="pofile-menu-list w-full">
+                  <li class="">
+                    <a href="profile.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="far fa-user-circle" aria-hidden="true"></i>
+                      <span class="ml-3">Personal Info</span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="subscription-banner.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="fab fa-jedi-order" aria-hidden="true"></i>
+                      <span class="ml-3">Subscription</span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="subscription-banner.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="fas fa-award" aria-hidden="true"></i>
+                      <span class="ml-3">Vouchers</span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="subscription-banner.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="fab fa-buffer" aria-hidden="true"></i>
+                      <span class="ml-3">Reviews</span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="password-change.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="fas fa-key" aria-hidden="true"></i>
+                      <span class="ml-3">Password Change</span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="payment-history.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="fa-solid fa-file-invoice-dollar"></i>
+                      <span class="ml-3">Payment History</span>
+                    </a>
+                  </li>
+                  <li class="profile_side_list_active">
+                    <a href="payment-method.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                      <i class="fa-regular fa-credit-card"></i>
+                      <span class="ml-3">Payment Method</span>
+                    </a>
+                  </li>
+
+                </ul>
+                <div class="flex justify-center my-2">
+                  <form style="width: 100%; padding: 0px 4%;">
+                    <button
+                      class="w-full text-white py-2 px-8 uppercase font-medium text-sm tracking-widest outline-none"
+                      style="background: #3bb3bd; text-align: center;">
+                      <i class="fas fa-sign-out-alt" aria-hidden="true"></i>&nbsp;Logout
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--   Profile Info    -->
+          <div class="profile_right w-full md:w-8/12 lg:w-9/12 p-4 lg:p-6 my-2 lg:my-4 mb-4 md:mb-2 bg-white  shadow">
+            <div>
+              <!--   Top Title  -->
+              <div class="mb-4 border-b border-gray-300 border-solid">
+                <div class="flex pb-4 flex-col lg:flex-row"><h4
+                  class="block font-medium md:inline-block text-sm md:text-lg pr-4" style="color: #3bb3bd;">
+                  Payment Method </h4>
+                  <p class="text-xs md:text-sm flex items-center text-gray-500">Enter your card
+                    information for ensuring security and recovery of your account.</p></div>
+              </div>
+
+              <!--  profile_content   -->
+              <div class="profile_content relative">
+                <!--    Payment Method     -->
+                <div class="payment-method-container">
+                  <div class="payment-method-form">
+                    <form action="#">
+
+
+                      <div class="flex-row">
+                        <label for="card-name">Holder Name</label>
+                        <input name="card-name" class="card-name" type="text" value="">
+                      </div>
+
+                      <div class="flex-row">
+                        <label for="card-number">Card Number</label>
+                        <input name="card-number" class="card-number" type="text" value="">
+                      </div>
+
+                      <div class="flex-row justify-between mb-7">
+                        <div class="table-column">
+                          <label for="month-select">Expiration Date</label>
+                          <div class="flex">
+                            <select name="month" id="month-select">
+                              <option value="Month" selected disabled>Month</option>
+                              <option value="January">January</option>
+                              <option value="February">February</option>
+                              <option value="March">March</option>
+                              <option value="April">April</option>
+                              <option value="May">May</option>
+                              <option value="June">June</option>
+                              <option value="July">July</option>
+                              <option value="August">August</option>
+                              <option value="September">September</option>
+                              <option value="October">October</option>
+                              <option value="November">November</option>
+                              <option value="December">December</option>
+                            </select>
+                            <select name="year" id="year-select">
+                              <option value="Year"  selected disabled>Year</option>
+                              <option value="2022">2022</option>
+                              <option value="2023">2023</option>
+                              <option value="2024">2024</option>
+                              <option value="2025">2025</option>
+                              <option value="2026">2026</option>
+                              <option value="2027">2027</option>
+                              <option value="2028">2028</option>
+                              <option value="2029">2029</option>
+                              <option value="2030">2030</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="table-column">
+                          <label for="card-cvv">CVV</label>
+                          <input id="card-cvv" name="card-cvv" class="card-cvv" type="text" value="">
+                        </div>
+                      </div>
+
+
+                      <div class="flex-row mb-3">
+                        <input class="card-submit" type="submit">
+                      </div>
+                    </form>
+                    <img class="payment-method-card-image" src="https://pngimg.com/uploads/credit_card/credit_card_PNG99.png" alt="Card image">
+                    <div class="payment-method-card-image-shadow"></div>
+                  </div>
+                </div>
+<!--           =========================================     -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- ======= Profile Section  || END ======= -->
+
+  <!-- ======= Footer Section  || START ======= -->
+  <footer class="footer">
+    <div class="footer_container container px-4 md:px-16 pt-12 pb-6">
+      <div class="footer-content flex flex-col md:flex-row">
+        <div class="footer-info px-1 md:px-6 w-full md:w-1/3">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <svg width="130" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"
+                 aria-label="Preply" viewBox="0 0 130 40">
+              <g data-name="logomark">
+                <path data-name="top"
+                      d="M18.556 8.632c.9.465 1.528 1.538 1.214 2.552-.182.591-.815 1.094-1.362 1.382l-4.83 2.489-11.824 6.24C1.09 21.682 0 21.504 0 20.51c0-.348.234-.619.502-.83l4.175-3.447c-.97-.522-1.959-1.218-2.417-1.465C1.08 14.13 1 13.11 1 12.72V2.106c0-.37-.018-.669.094-1.033A1.508 1.508 0 013 .073c.14.045.253.116.387.191l15.17 8.368z"
+                      fill="#CD4A86"></path>
+                <path data-name="bottom"
+                      d="M18.74 14.883c1.248-.66 2.257-.053 2.257 1.356L21 27c0 1.409-1.01 3.086-2.256 3.745L2.256 39.612C1.01 40.272 0 39.666 0 38.257V27.495c0-1.409 1.01-3.085 2.256-3.745l16.485-8.867z"
+                      fill="#27E0F6"></path>
+              </g>
+              <g data-name="preply" fill-rule="evenodd" clip-rule="evenodd" fill="#192435">
+                <path
+                  d="M109 27h-5V5.377C104 4.167 105.113 3 106.359 3H109v24zM53 27l-.017-9.013c0-2.767.727-5.678 2.978-7.482 2.028-1.604 5.02-2.012 7.539-2.012v4.92c-1.434 0-3.604-.133-4.7.972-.649.649-.8 1.665-.8 3.047V27h-5zM113.631 29.627v3.957l1.712-.003c1.447 0 3.137.002 4.388-.833.827-.644 1.521-1.729 2.076-3.255L129 8h-3.5c-1.199 0-1.889 1.053-2.167 2.163l-3.255 11.362L116 8h-5l6.442 18.857c.322.966.218 1.67-.312 2.11-.972.808-2.319.66-3.499.66zM37.5 31.5v-7.07c1.09 1.916 3.368 2.77 5.473 2.77 2.17 0 3.95-.877 5.337-2.63 1.505-1.959 2.057-4.456 2.075-6.886.027-2.663-.48-5.625-2.482-7.548-1.651-1.604-3.976-2.127-6.209-2.127-2.426 0-5.136.719-6.825 2.548-1.244 1.27-1.866 3.217-1.866 5.836V34h2.354c1.284 0 2.143-1.215 2.143-2.5zm8.114-13.789c0 1.66-.342 2.978-1.04 3.95-.694.97-1.64 1.456-2.84 1.456-1.293 0-2.284-.485-2.978-1.457-.693-.877-1.04-2.195-1.04-3.949 0-2.538.801-5.614 3.88-5.614 3.074 0 4.018 3.022 4.018 5.614zM88.497 31.5v-7.07c1.09 1.916 3.368 2.77 5.473 2.77 2.17 0 3.949-.877 5.337-2.63 1.504-1.959 2.056-4.456 2.075-6.886.026-2.663-.48-5.625-2.483-7.548-1.65-1.604-3.975-2.127-6.208-2.127-2.427 0-5.137.719-6.826 2.548C84.623 11.827 84 13.774 84 16.393V34h2.354c1.284 0 2.143-1.215 2.143-2.5zm8.114-13.789c0 1.66-.342 2.978-1.04 3.95-.694.97-1.64 1.456-2.84 1.456-1.293 0-2.284-.485-2.978-1.457-.694-.877-1.04-2.195-1.04-3.949 0-2.538.8-5.614 3.88-5.614 3.073 0 4.018 3.022 4.018 5.614zM81.694 21.156H78.23c-.555 0-.98.114-1.283.352-.463.357-.777.876-1.285 1.18-.6.357-1.315.485-2.005.485-1.2 0-2.101-.372-2.7-1.11-.65-.694-.997-1.631-1.041-3.063h12.05c0-2.997-.404-6.12-2.466-8.508C77.979 8.832 76.08 8 73.31 8c-2.631 0-4.688.852-6.164 2.562C65.714 12.222 65 14.536 65 17.489c0 3.092.738 5.346 2.215 7.011 1.477 1.71 3.533 2.5 6.164 2.5 2.17 0 3.974-.44 5.406-1.5 1.432-1.016 2.398-2.402 2.909-4.344zm-4.712-5.406h-7.067c.045-1.2.392-2.12 1.041-2.77.644-.65 1.477-.971 2.492-.971 1.106 0 1.963.327 2.562.97.555.6.877 1.522.972 2.77z"></path>
+              </g>
+            </svg>
+          </a>
+          <p class="pt-6 pb-2">By speaking someone's language you learn about them, their culture and their ideas.
+            Breaking down the language barrier bridges cultural differences, fosters a world of inclusion and is a first
+            step in helping to address humanity’s challenges. For us, language knows no boundaries.</p>
+          <p class="mt-2 mb-2">Official Linguaskill agent</p>
+          <img loading="lazy" width="100%" height="100%"
+               src="https://www.cambridgeenglish.org/Images/Cambridge_Press_Assessment_Landscape_Logo_RGB-280x55.png"
+               class="logo">
+        </div>
+
+        <div class="footer__directions px-1 md:px-4 w-full md:w-2/3">
+          <nav class="footer--nav">
+            <ul class="flex-col md:flex-row flex justify-between footer--nav-content">
+              <li>
+                <a title="Company" href="#" class="footer--nav-link">Company</a>
+                <ul class="footer--nav-content--nested" role="menu">
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">About Us</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Corporate</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Blog</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Career</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Press</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Research</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a title="Language" href="#" class="footer--nav-link">Language</a>
+                <ul class="footer--nav-content--nested" role="menu">
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">English</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">German</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Bengali</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Russian</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Arabic</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a title="How it works" href="#" class="footer--nav-link">How it works</a>
+                <ul class="footer--nav-content--nested" role="menu">
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Our Platform</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Resources</a>
+                  </li>
+
+                </ul>
+              </li>
+              <li>
+                <a title="Support" href="#" class="footer--nav-link">Support</a>
+                <ul class="footer--nav-content--nested" role="menu">
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">FAQ</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Contact Us</a>
+                  </li>
+                  <li>
+                    <a title="Blog" target="_blank" href="#" class="">Content Creators</a>
+                  </li>
+                  <li class="footer-btn">
+                    <a title="Become a teacher" href="#" class="dropdown-item">Become a teacher</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer_copyright pt-8">
+        <div class="copyright-col text-center">
+          <span class="sub" style="line-height:2">© Copyright 2022 Darisonline GmbH. Zimmerstr. 69, 10117 Berlin - All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ======= Footer Section  || END ======= -->
+
+
+  <!-- ======= SCRIPTS ======= -->
+  <script src="./app.js"></script>
+  <!-- ======= SCRIPTS ======= -->
+</main>
+</body>
+</html>

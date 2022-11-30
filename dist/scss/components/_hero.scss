@@ -1,0 +1,208 @@
+.hero {
+  &_container {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    @media (min-width: 768px) {
+      & {
+        margin-top: 60px;
+        flex-direction: row;
+      }
+    }
+  }
+
+  .hero_text_container {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 14px;
+    @media (min-width: 768px) {
+      & {
+        margin-left: 100px;
+        margin-right: 64px;
+      }
+    }
+
+    h1 {
+      color: $dark-text-2;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.25;
+      margin-bottom: 11px;
+
+      @media (min-width: 768px) {
+        & {
+          margin-bottom: 0;
+          font-size: 40px;
+          font-weight: 500;
+        }
+      }
+
+      &:before {
+        display: none;
+      }
+    }
+
+    p {
+      color: $dark-text-2;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.25;
+      margin-bottom: 30px;
+      @media (min-width: 768px) {
+        & {
+          font-size: 32px;
+          margin-bottom: 32px;
+
+        }
+      }
+    }
+  }
+
+  .hero_img_container {
+    flex: 1;
+    display: block;
+    margin-left: 20px;
+    margin-right: 14px;
+
+    picture {
+      width: 91%;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+
+      @media (min-width: 768px) {
+        & {
+          width: 100%;
+          margin: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      & {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  .hero_search_container {
+    width: 100%;
+
+    .hero_search-input {
+      border: 1px solid $border-color;
+      border-radius: 16px;
+      box-shadow: 0 0 3px #c6c6c6;
+      height: 44px;
+      min-width: unset;
+      text-overflow: ellipsis;
+      background-color: #fff;
+      color: $dark-text-2;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      width: 100%;
+
+      input {
+        border-radius: 16px;
+        font-size: 14px;
+        border: none;
+        font-weight: 400;
+        width: 100%;
+        padding: 0 48px 0 16px;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  .hero_search-btn {
+    border-radius: 16px;
+    flex: 1 0 auto;
+    font-size: $small-font-size;
+    font-weight: 500;
+    margin-left: -40px;
+    padding: 0 40px;
+    white-space: nowrap;
+    min-width: 148px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+    cursor: pointer;
+    outline: 0;
+    transition: background-color 50ms;
+    color: #fff;
+    background-color: $secondary-color;
+    position: relative;
+    min-height: 32px;
+
+    &:hover {
+      background: #33aab4;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .idUwgw {
+      display: none;
+    }
+  }
+
+  .idUwgw {
+    //height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    //display: block;
+  }
+
+  @media screen and (min-width: 992px) {
+    .jIMAYG {
+      display: none;
+    }
+  }
+
+  .jIMAYG {
+    position: absolute;
+    top: 0px;
+    z-index: 15;
+    display: block;
+    max-width: 120px;
+    left: 0px;
+  }
+
+  .fJoGkM {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+  }
+
+  @media screen and (min-width: 992px) {
+    .fJoGkM {
+      display: block;
+    }
+  }
+
+  .eWuFix {
+    position: absolute;
+    top: 0px;
+    z-index: 15;
+    display: none;
+    height: 100%;
+    left: 0px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .eWuFix {
+      display: block;
+    }
+  }
+}
