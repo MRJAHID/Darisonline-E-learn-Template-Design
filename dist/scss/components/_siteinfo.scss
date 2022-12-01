@@ -5,9 +5,10 @@
 
 .siteinfo_categories {
   background: #75bb39;
-  background: linear-gradient(85deg,#75bb39,#56ae68);
+  background: linear-gradient(85deg, #75bb39, #56ae68);
   padding: 40px 6rem 55px;
   position: relative;
+
   .categories__bg {
     background: url(https://alison.com/html/site/img/homepage/background.svg) no-repeat 50%/100%;
     height: 100%;
@@ -17,17 +18,20 @@
     top: 0;
     width: 100%;
   }
+
   .inner {
     margin: 0 auto;
     max-width: 1366px;
-    h2{
-        color: #fff;
-        font-size: 32px;
-        margin-bottom: 24px;
-        text-align: center;
+
+    h2 {
+      color: #fff;
+      font-size: 32px;
+      margin-bottom: 24px;
+      text-align: center;
       font-weight: 400;
     }
-    ul{
+
+    ul {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -35,7 +39,8 @@
       margin: 0 auto;
       position: relative;
       width: auto;
-      li{
+
+      li {
         align-items: center;
         background: #fff;
         border-radius: 25px;
@@ -48,28 +53,104 @@
         text-align: center;
         transition: transform .3s ease-in-out;
         width: 183px;
-        &:hover{
+
+        &:hover {
           transform: scale(1.1);
         }
-        a{
+
+        a {
           color: $dark-text;
+
           img {
             margin: 10px auto;
           }
-          h4{
+
+          h4 {
             font-size: 16px;
             font-weight: 400;
             margin-bottom: 2px;
           }
-          //.course-amount {
-          //  color: #5d676e;
-          //  font-size: 12px;
-          //}
+
         }
-        &:first-child{
+
+        &:first-child {
           order: 1;
         }
       }
     }
+  }
+}
+
+.styles_wrap__HQsRZ {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.styles_hidden__IWx3b {
+  display: none;
+  visibility: hidden;
+}
+
+.styles_formWrapper__Z_HP_ {
+  display: flex;
+  width: 70%;
+}
+
+.styles_fullTextSearchInputWrapper__ywtzF {
+  border-radius: 16px;
+  box-shadow: 0 0 3px #c6c6c6;
+  height: 44px;
+  min-width: unset;
+  text-overflow: ellipsis;
+  background-color: #fff;
+  border: 1px solid #e3e5e6;
+  color: #384047;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+
+.styles_fullTextSearchInput__BPbv1 {
+  border-radius: 16px;
+  font-size: 15px;
+  padding: 0 48px 0 16px;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-weight: 400;
+}
+
+.Button_button__qXZ5J {
+  border-radius: 16px;
+  flex: 1 0 auto;
+  font-weight: 500;
+  margin-left: -40px;
+  padding: 0 40px;
+  font-size: 16px;
+  min-width: 148px;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  border: 0;
+  align-items: center;
+  min-height: 32px;
+  line-height: 1;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
+  cursor: pointer;
+  outline: 0;
+  transition: all 50ms ease-in;
+  color: #fff;
+  background-color: #3bb3bd;
+
+  &:hover {
+    color: #fff;
+    background-color: #3babd8;
   }
 }

@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <workItem from="1669889068349" duration="365000" />
       <workItem from="1669889453111" duration="1037000" />
       <workItem from="1669890782788" duration="3275000" />
-      <workItem from="1669898955609" duration="6417000" />
+      <workItem from="1669898955609" duration="7720000" />
     </task>
     <servers />
   </component>
