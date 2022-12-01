@@ -3,13 +3,13 @@
   background-color: #fff;
 }
 
-.categories {
+.siteinfo_categories {
   background: #75bb39;
   background: linear-gradient(85deg,#75bb39,#56ae68);
   padding: 40px 6rem 55px;
   position: relative;
   .categories__bg {
-    background: url(./dist/images/sites/background.svg) no-repeat 50%/100%;
+    background: url(https://alison.com/html/site/img/homepage/background.svg) no-repeat 50%/100%;
     height: 100%;
     left: 0;
     pointer-events: none;
@@ -25,6 +25,7 @@
         font-size: 32px;
         margin-bottom: 24px;
         text-align: center;
+      font-weight: 400;
     }
     ul{
       display: flex;
