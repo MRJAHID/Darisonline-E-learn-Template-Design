@@ -161,3 +161,7 @@ html:focus-within {
   color: #343a40 !important;
   border-color: #343a40 !important;
 }
+.lazyloaded {
+  opacity: 1 !important;
+  transition: opacity 500ms;
+}

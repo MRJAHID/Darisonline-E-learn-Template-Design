@@ -1,0 +1,74 @@
+.siteinfo {
+  padding-top: 4rem;
+  background-color: #fff;
+}
+
+.categories {
+  background: #75bb39;
+  background: linear-gradient(85deg,#75bb39,#56ae68);
+  padding: 40px 6rem 55px;
+  position: relative;
+  .categories__bg {
+    background: url(./dist/images/sites/background.svg) no-repeat 50%/100%;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .inner {
+    margin: 0 auto;
+    max-width: 1366px;
+    h2{
+        color: #fff;
+        font-size: 32px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
+      position: relative;
+      width: auto;
+      li{
+        align-items: center;
+        background: #fff;
+        border-radius: 25px;
+        box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+        display: flex;
+        height: 152px;
+        justify-content: center;
+        margin: 0 42px 38px 0;
+        padding: 0 27px;
+        text-align: center;
+        transition: transform .3s ease-in-out;
+        width: 183px;
+        &:hover{
+          transform: scale(1.1);
+        }
+        a{
+          color: $dark-text;
+          img {
+            margin: 10px auto;
+          }
+          h4{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 2px;
+          }
+          //.course-amount {
+          //  color: #5d676e;
+          //  font-size: 12px;
+          //}
+        }
+        &:first-child{
+          order: 1;
+        }
+      }
+    }
+  }
+}

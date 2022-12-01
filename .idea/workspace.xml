@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scss/abstract/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/abstract/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_whatis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_whatis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/components/_language-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/home/jahid/Documents/Projects/Darisonline-e-learn-template/node_modules/prettier",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +84,7 @@
       <workItem from="1669889068349" duration="365000" />
       <workItem from="1669889453111" duration="1037000" />
       <workItem from="1669890782788" duration="3275000" />
-      <workItem from="1669898955609" duration="1712000" />
+      <workItem from="1669898955609" duration="4595000" />
     </task>
     <servers />
   </component>
