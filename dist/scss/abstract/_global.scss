@@ -151,3 +151,13 @@ html:focus-within {
 .shadow {
   box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
 }
+
+.btn-dark {
+  color: #fff !important;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+.btn-outline-dark {
+  color: #343a40 !important;
+  border-color: #343a40 !important;
+}

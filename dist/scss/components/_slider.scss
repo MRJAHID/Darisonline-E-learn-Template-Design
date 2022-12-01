@@ -1,5 +1,4 @@
 
-
 .slider-container {
   position: relative;
   overflow: hidden;
@@ -85,19 +84,27 @@ button:focus {
   border-bottom-right-radius: 5px;
 }
 
-.slider-text h2{
-  font-size: 45px;
-  font-weight: 600;
+.slider-text h2 {
+  font-size: 40px;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000;
+
+  span {
+    color: $third-color;
+  }
 }
-.slider-text h3{
-  font-size: 16px;
+
+.slider-text h3 {
+  font-size: 18px;
   font-weight: 400;
   color: $dark-text;
 }
-.slider-text p{
-  font-size: 14px;
-  font-weight: 300;
+
+.slider-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   color: $dark-text;
+  margin-bottom: 1rem;
 }
