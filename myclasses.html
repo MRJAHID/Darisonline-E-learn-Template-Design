@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Class | Darisonline</title>
+    <!-- Favicon -->
+    <link
+            rel="icon"
+            href="https://static.preply.com/ds/icons/favicon-ua.ico"
+            sizes="any"
+    />
+    <!-- Rubik Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Tailwind Css Pack -->
+    <link href="./dist/css/tailwind/tailwind.css" rel="stylesheet"/>
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./dist/css/index.css"/>
+</head>
+<body class="antialiased">
+<main>
+    <!-- ======= Header || START ======= -->
+    <header class="header container px-2 mx-auto">
+        <section class="header_container">
+            <div class="userauth_container w-1/4">
+                <div class="userauth_container--login hidden md:block">
+                    <!--  Logged Items // Profile icons  -->
+                    <div class="header_iconGroup__1tKIQ hidden md:block">
+                        <div class="header_iconLinks__bENRn">
+                            <a class="header_link__3Jd0t" href="#">
+                                <div class="">
+                                    <img style="height: auto;  width: 25px; border-radius: 50%;"
+                                         src="https://avatars.preply.com/i/logos/7155579.jpg" alt="Profile"/>
+                                </div>
+                            </a>
+
+                            <a class="header_link__3Jd0t" href="#">
+                                <div class="">
+                                    <svg fill="#384047" width="20" height="19" viewBox="0 0 20 19"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M2.342.998C.932 1.965.063 3.608.003 5.32c-.13 3.909 3.747 8.43 9.999 13.43 6.248-5 10.134-9.521 9.994-13.43-.06-1.713-.93-3.355-2.34-4.322-2.013-1.391-4.388-1.222-6.181-.142a5.976 5.976 0 0 0-1.476 1.25A5.957 5.957 0 0 0 8.53.86C6.736-.22 4.359-.387 2.343.998zm7.66 15.17c2.476-2.067 4.438-3.992 5.81-5.765 1.618-2.093 2.23-3.74 2.185-5.012V5.39c-.039-1.105-.607-2.15-1.472-2.743l-.005-.004c-1.66-1.146-3.79-.665-4.995.756L9.999 5.2l-1.525-1.8c-1.201-1.417-3.334-1.897-5-.753v.001c-.865.594-1.433 1.637-1.472 2.741-.042 1.275.574 2.924 2.19 5.015 1.37 1.774 3.333 3.698 5.81 5.765z"></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a class="header_link__3Jd0t" href="#">
+                                <div class="">
+                                    <svg fill="#384047" width="18" height="21" viewBox="0 0 18 21"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M0 18v-2l1.414-1.414A2 2 0 0 0 2 13.172V9c0-1.556.674-2.98 1.71-4.095A7.695 7.695 0 0 1 7.5 2.68V2c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v.68C13.37 3.36 16 5.93 16 9v4.172a2 2 0 0 0 .586 1.414L18 16v2H0zm15.172-2H2.828A4 4 0 0 0 4 13.172V9c0-1.916 1.75-3.848 3.963-4.374l1.035-.246 1.04.246C12.256 5.151 14 7.09 14 9v4.172A4.001 4.001 0 0 0 15.172 16zM11.5 19h-5c0 .364.123.705.337 1 .353.486.955.843 1.663.96a3.08 3.08 0 0 0 1 0c.708-.117 1.31-.474 1.663-.96.214-.295.337-.636.337-1z"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--  Logged out item // Login Button        -->
+                    <!-- <a href="login.html"  class="userauth_container&#45;&#45;login hidden md:block">-->
+                    <!-- <span> Login </span>-->
+                    <!-- </a>-->
+                </div>
+                <!--  Mobile Items  -->
+                <a href="login.html" class="userauth_container--bar block md:hidden">
+             <span>
+            <i class="fa-solid fa-bars"></i>
+          </span>
+                </a>
+            </div>
+            <div class="logo_container w-full md:w-1/4">
+                <a href="index.html" class="logo">
+                    <img class="ml-auto" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+                </a>
+            </div>
+            <div class="nav_container md:flex md:justify-end hidden w-2/4">
+                <nav>
+                    <ul>
+                        <label>
+                            <select class="lang-select bg-inherit">
+                                <option value="1">English</option>
+                                <option value="2">Arabic</option>
+                                <option value="3">Spanish</option>
+                            </select>
+                        </label>
+                        <li>
+                            <a href="find-teacher.html">Find Tutors</a>
+                        </li>
+                        <li>
+                            <a href="#">Payment</a>
+                        </li>
+                        <li>
+                            <a href="#">Site Information</a>
+                        </li>
+                        <li><a href="#">Condition</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </section>
+    </header>
+    <!-- ======= Header || END ======= -->
+
+    <!-- ======= My Class Section  || START ======= -->
+    <main class="profile">
+        <div class="profile_container container px-2 mx-auto">
+            <!-- My Class Basic Info  -->
+            <div class="user_menu_container">
+                <div class="flex flex-col md:flex-row">
+                    <!--    Profile left  menu -->
+                    <div class="profile_left w-full md:w-4/12 lg:w-3/12 mx-auto my-2 lg:my-4 md:mr-2 lg:mr-4   bg-white shadow">
+                        <!--   Profile menu list      -->
+                        <div>
+                            <div class="flex p-4 text-center md:my-8 md:block">
+                                <div class="w-2/5 md:w-full">
+                                    <div class="side_profile_img relative w-24 mx-auto mb-4 overflow-hidden rounded-full md:w-32"
+                                         style="border-radius: 2%;">
+                                        <img
+                                                src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                                class="custom-image m-auto" alt="Profile">
+                                        <button
+                                                class="profile_pic_chnage_btn  absolute bottom-0 hidden px-8 py-1 text-gray-100 bg-gray-900">
+                      <span class="flex items-center">
+                        <span class="text-sm">Edit</span>
+                      </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="w-3/5 md:w-full flex flex-col justify-center items-center">
+                                    <h2 class="text-xl text-center font-medium text-gray-700">
+                    <span class="inline-flex items-center">Jahid
+					<span class="ml-2">
+            <svg color="#34A852" fill="none" height="18" size="18" stroke="currentColor"
+                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                 width="18" xmlns="http://www.w3.org/2000/svg" style="color: rgb(52, 168, 82);"><path
+                    d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path> <polyline
+                    points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </span>
+                    </span>
+                                    </h2>
+                                    <h4 class="text-center text-gray-600">01869653016</h4>
+                                </div>
+                            </div>
+                            <!--      Profile-menu-list    -->
+                            <div class="mb-4">
+                                <ul class="pofile-menu-list w-full">
+                                    <li class="profile_side_list_active">
+                                        <a href="profile.html"
+                                           class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="far fa-user-circle" aria-hidden="true"></i>
+                                            <span class="ml-3">Personal Info</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="subscription-banner.html"
+                                           class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fab fa-jedi-order" aria-hidden="true"></i>
+                                            <span class="ml-3">Subscription</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="myclasses.html"
+                                           class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fa-solid fa-book"></i>
+                                            <span class="ml-3">My classes</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fa-regular fa-note-sticky"></i>
+                                            <span class="ml-3">Notebook</span>
+                                        </a>
+                                    </li>
+                                    <li class="findtutor.html">
+                                        <a href="" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fab fa-buffer" aria-hidden="true"></i>
+                                            <span class="ml-3">Book a Class</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fab fa-buffer" aria-hidden="true"></i>
+                                            <span class="ml-3">Paying Off</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="password-change.html"
+                                           class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fas fa-key" aria-hidden="true"></i>
+                                            <span class="ml-3">Password Change</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="payment-history.html"
+                                           class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                                            <span class="ml-3">Payment History</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="payment-method.html"
+                                           class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
+                                            <i class="fa-regular fa-credit-card"></i>
+                                            <span class="ml-3">Payment Method</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                <div class="flex justify-center my-2">
+                                    <form style="width: 100%; padding: 0px 4%;">
+                                        <button
+                                                class="w-full text-white py-2 px-8 uppercase font-medium text-sm tracking-widest outline-none"
+                                                style="background: #3bb3bd; text-align: center;">
+                                            <i class="fas fa-sign-out-alt" aria-hidden="true"></i>&nbsp;Logout
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--   My Class Info    -->
+                    <div class="profile_right w-full md:w-8/12 lg:w-9/12 p-4 lg:p-6 my-2 lg:my-4 mb-4 md:mb-2 bg-white shadow">
+                        <div>
+                            <!--   Top Title  -->
+                            <div class="mb-4 border-b border-gray-300 border-solid">
+                                <div class="flex pb-4 flex-col lg:flex-row">
+                                    <h4 class="block font-medium md:inline-block text-sm md:text-lg pr-4"
+                                        style="color: #3bb3bd;">My Classes</h4>
+                                    <p class="text-xs md:text-sm flex items-center text-gray-500">Welcome back Anisul
+                                        Haque Bhuiyan, ready for your next lesson?</p>
+                                </div>
+                            </div>
+
+                            <!--  profile_content   -->
+                            <div class="myclass_content">
+                                <div class="row justify-between">
+                                    <div class="my-2 enrolled-course">
+                                        <div class="myclass_card shadow border-0 mb-1">
+                                            <div class="myclass_card-body">
+                                                <div class="row">
+                                                    <div class="w-2/5 myclass_card-img">
+                                                        <div style="all: unset;">
+                                                            <img src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1668349675455.png"
+                                                                 alt="Advanced"
+                                                                 class="myclass_card-img-top w-100 lazy-image"
+                                                                 style="width: 100%; height: 100%; position: absolute; object-fit: inherit; top: 0px; left: 0px; opacity: 1; transition: filterBrightness 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0s, filterSaturate 3000ms cubic-bezier(0.4, 0, 0.2, 1) 0s, opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+                                                            <div style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: flex; align-items: center; justify-content: center; pointer-events: none;"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="myclass_card-text w-3/5 px-4 py-1">
+                                                        <h5 class="mb-2 text-green-700">Best English A1 Course</h5>
+                                                        <div class="flex font-normal mb-1">
+                                                            <span class="mr-4 text-green-700">Teacher: </span>
+                                                            <span class="text-gray-800">John Due</span>
+                                                        </div>
+                                                        <div class="flex font-normal mb-1">
+                                                            <span class="mr-3 text-green-700">Progress: </span>
+                                                            <span class="text-gray-800">3%</span>
+                                                        </div>
+                                                        <div class="mt-4"></div>
+                                                        <a class="" href="#">
+                                                            <button style="margin-left: 0px;" class="Button_button__qXZ5J">
+                                                                <span class="styles_text__7FTKh">Start Course</span>
+                                                            </button>
+                                                        </a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-2 enrolled-course">
+                                        <div class="myclass_card shadow border-0 mb-1">
+                                            <div class="myclass_card-body">
+                                                <div class="row">
+                                                    <div class="w-2/5 myclass_card-img">
+                                                        <div style="all: unset;">
+                                                            <img src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1668349675455.png"
+                                                                 alt="Advanced"
+                                                                 class="myclass_card-img-top w-100 lazy-image"
+                                                                 style="width: 100%; height: 100%; position: absolute; object-fit: inherit; top: 0px; left: 0px; opacity: 1; transition: filterBrightness 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0s, filterSaturate 3000ms cubic-bezier(0.4, 0, 0.2, 1) 0s, opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+                                                            <div style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: flex; align-items: center; justify-content: center; pointer-events: none;"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="myclass_card-text w-3/5 px-4 py-1">
+                                                        <h5 class="mb-2 text-green-700">Best English A1 Course</h5>
+                                                        <div class="flex font-normal mb-1">
+                                                            <span class="mr-4 text-green-700">Teacher: </span>
+                                                            <span class="text-gray-800">John Due</span>
+                                                        </div>
+                                                        <div class="flex font-normal mb-1">
+                                                            <span class="mr-3 text-green-700">Progress: </span>
+                                                            <span class="text-gray-800">3%</span>
+                                                        </div>
+                                                        <div class="mt-4"></div>
+                                                        <a class="" href="#">
+                                                            <button style="margin-left: 0px;" class="Button_button__qXZ5J">
+                                                                <span class="styles_text__7FTKh">Start Course</span>
+                                                            </button>
+                                                        </a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-2 enrolled-course">
+                                        <div class="myclass_card shadow border-0 mb-1">
+                                            <div class="myclass_card-body">
+                                                <div class="row">
+                                                    <div class="w-2/5 myclass_card-img">
+                                                        <div style="all: unset;">
+                                                            <img src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1668349675455.png"
+                                                                 alt="Advanced"
+                                                                 class="myclass_card-img-top w-100 lazy-image"
+                                                                 style="width: 100%; height: 100%; position: absolute; object-fit: inherit; top: 0px; left: 0px; opacity: 1; transition: filterBrightness 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0s, filterSaturate 3000ms cubic-bezier(0.4, 0, 0.2, 1) 0s, opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+                                                            <div style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: flex; align-items: center; justify-content: center; pointer-events: none;"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="myclass_card-text w-3/5 px-4 py-1">
+                                                        <h5 class="mb-2 text-green-700">Best English A1 Course</h5>
+                                                        <div class="flex font-normal mb-1">
+                                                            <span class="mr-4 text-green-700">Teacher: </span>
+                                                            <span class="text-gray-800">John Due</span>
+                                                        </div>
+                                                        <div class="flex font-normal mb-1">
+                                                            <span class="mr-3 text-green-700">Progress: </span>
+                                                            <span class="text-gray-800">3%</span>
+                                                        </div>
+                                                        <div class="mt-4"></div>
+                                                        <a class="" href="#">
+                                                            <button style="margin-left: 0px;" class="Button_button__qXZ5J">
+                                                                <span class="styles_text__7FTKh">Start Course</span>
+                                                            </button>
+                                                        </a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ======= Profile Section  || END ======= -->
+
+
+    <!-- ======= Footer Section  || START ======= -->
+    <footer class="footer">
+        <div class="footer_container container px-4 md:px-16 pt-12 pb-6">
+            <div class="footer-content flex flex-col md:flex-row">
+                <div class="footer-info px-1 md:px-6 w-full md:w-1/3">
+                    <a href="index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="dist/images/logo.svg" alt="Logo" width="200" height="80">
+                    </a>
+                    <p class="pt-6 pb-2">By speaking someone's language you learn about them, their culture and their
+                        ideas.
+                        Breaking down the language barrier bridges cultural differences, fosters a world of inclusion
+                        and is a first
+                        step in helping to address humanity’s challenges. For us, language knows no boundaries.</p>
+                    <p class="mt-2 mb-2">Official Linguaskill agent</p>
+                    <img loading="lazy" width="100%" height="100%"
+                         src="https://www.cambridgeenglish.org/Images/Cambridge_Press_Assessment_Landscape_Logo_RGB-280x55.png"
+                         class="logo">
+                </div>
+
+                <div class="footer__directions px-1 md:px-4 w-full md:w-2/3">
+                    <nav class="footer--nav">
+                        <ul class="flex-col md:flex-row flex justify-between footer--nav-content">
+                            <li>
+                                <a title="Company" href="#" class="footer--nav-link">Company</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Corporate</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Career</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Press</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Research</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a title="Language" href="#" class="footer--nav-link">Language</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">English</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">German</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Bengali</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Russian</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Arabic</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a title="How it works" href="#" class="footer--nav-link">How it works</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Our Platform</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Resources</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a title="Support" href="#" class="footer--nav-link">Support</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Content Creators</a>
+                                    </li>
+                                    <li class="footer-btn">
+                                        <a title="Become a teacher" href="#" class="dropdown-item">Become a teacher</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer_copyright pt-8">
+                <div class="copyright-col text-center">
+                    <span class="sub" style="line-height:2">© Copyright 2022 Darisonline GmbH. Zimmerstr. 69, 10117 Berlin - All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ======= Footer Section  || END ======= -->
+
+
+    <!-- ======= SCRIPTS ======= -->
+    <script src="./app.js"></script>
+    <!-- ======= SCRIPTS ======= -->
+</main>
+</body>
+</html>
