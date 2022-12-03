@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>My Notes | Darisonline</title>
+    <title>Chat ||  Darisonline</title>
     <!-- Favicon -->
     <link
             rel="icon"
@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
     <!-- Main Css -->
     <link rel="stylesheet" href="./dist/css/index.css"/>
 </head>
@@ -114,163 +113,205 @@
     </header>
     <!-- ======= Header || END ======= -->
 
-    <!-- ======= My Class Section  || START ======= -->
-    <main class="profile">
-        <div class="profile_container container px-2 mx-auto">
-            <!-- My Class Basic Info  -->
-            <div class="user_menu_container">
-                <div class="flex flex-col md:flex-row">
-                    <!--    Profile left  menu -->
-                    <div class="profile_left w-full md:w-4/12 lg:w-3/12 mx-auto my-2 lg:my-4 md:mr-2 lg:mr-4   bg-white shadow">
-                        <!--   Profile menu list      -->
-                        <ul class="pofile-menu-list w-full">
-                            <li class="">
-                                <a href="profile.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="far fa-user-circle" aria-hidden="true"></i>
-                                    <span class="ml-3">Personal Info</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="subscription-banner.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fab fa-jedi-order" aria-hidden="true"></i>
-                                    <span class="ml-3">Subscription</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="myclasses.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fa-solid fa-book"></i>
-                                    <span class="ml-3">My classes</span>
-                                </a>
-                            </li>
-                            <li class="profile_side_list_active">
-                                <a href="mynotes.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fa-regular fa-note-sticky"></i>
-                                    <span class="ml-3">Notebook</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="find-teacher.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fab fa-buffer" aria-hidden="true"></i>
-                                    <span class="ml-3">Book a Class</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="payment-method.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fa-regular fa-credit-card"></i>
-                                    <span class="ml-3">Paying Off</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="password-change.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fas fa-key" aria-hidden="true"></i>
-                                    <span class="ml-3">Password Change</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="payment-history.html" class="flex px-4 py-1 items-center cursor-pointer text-gray-800">
-                                    <i class="fa-solid fa-file-invoice-dollar"></i>
-                                    <span class="ml-3">Payment History</span>
-                                </a>
-                            </li>
+    <!-- ======= Chat UI || START ======= -->
+<main class="chatui">
+    <div id="chatui_frame">
+        <div id="chatui_sidepanel">
+            <div id="chatui_profile">
+                <div class="chatui_wrap">
+                    <img id="chatui_wrap_profile-img" src="http://emilcarlsson.se/assets/mikeross.png" class="online" alt="" />
+                    <p>Jahid Bhuiyan</p>
+                    <i class="fa fa-chevron-down expand-button" aria-hidden="true"></i>
+                    <div id="chatui_status-options">
+                        <ul>
+                            <li id="status-online" class="active"><span class="status-circle"></span> <p>Online</p></li>
+                            <li id="status-away"><span class="status-circle"></span> <p>Away</p></li>
+                            <li id="status-busy"><span class="status-circle"></span> <p>Busy</p></li>
+                            <li id="status-offline"><span class="status-circle"></span> <p>Offline</p></li>
                         </ul>
-                        <div class="flex justify-center my-2">
-                            <form style="width: 100%; padding: 0px 4%;">
-                                <button
-                                        class="w-full text-white py-2 px-8 uppercase font-medium text-sm tracking-widest outline-none"
-                                        style="background: #3bb3bd; text-align: center;">
-                                    <i class="fas fa-sign-out-alt" aria-hidden="true"></i>&nbsp;Logout
-                                </button>
-                            </form>
-                        </div>
                     </div>
-
-                    <!--   My Class Info    -->
-                    <div class="profile_right w-full md:w-8/12 lg:w-9/12 p-4 lg:p-6 my-2 lg:my-4 mb-4 md:mb-2 bg-white shadow">
-                        <div>
-                            <!--   Top Title  -->
-                            <div class="mb-4 border-b border-gray-300 border-solid">
-                                <div class="flex pb-4 flex-col lg:flex-row">
-                                    <h4 class="block font-medium md:inline-block text-sm md:text-lg pr-4"
-                                        style="color: #3bb3bd;">My Notes</h4>
-                                    <p class="text-xs md:text-sm flex items-center text-gray-500">
-                                        Welcome back <strong class="mx-1">JAHID</strong>, ready for your next lesson?
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!--  profile_content   -->
-                            <div class="mynotes_content">
-                                <div class="row justify-between">
-                                    <div class="mynotes_card shadow-lite">
-                                        <div class="flex justify-between mb-3">
-                                            <h2 class="pr-3">Top English Resources</h2>
-                                            <a href="#">
-                                                <i class="fa-regular fa-pen-to-square"></i>
-                                            </a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa
-                                            dolores est eum explicabo harum inventore, iure laboriosam magnam nihil
-                                            numquam obcaecati omnis perspiciatis quas qui reiciendis repellat sed
-                                            voluptatibus?</p>
-                                    </div>
-                                    <div class="mynotes_card shadow-lite">
-                                        <div class="flex justify-between mb-3">
-                                            <h2 class="pr-3">Top English Resources</h2>
-                                            <a href="#">
-                                                <i class="fa-regular fa-pen-to-square"></i>
-                                            </a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa
-                                            dolores est eum explicabo harum inventore, iure laboriosam magnam nihil
-                                            numquam obcaecati omnis perspiciatis quas qui reiciendis repellat sed
-                                            voluptatibus?</p>
-                                    </div>
-                                    <div class="mynotes_card shadow-lite">
-                                        <div class="flex justify-between mb-3">
-                                            <h2 class="pr-3">Top English Resources</h2>
-                                            <a href="#">
-                                                <i class="fa-regular fa-pen-to-square"></i>
-                                            </a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa
-                                            dolores est eum explicabo harum inventore, iure laboriosam magnam nihil
-                                            numquam obcaecati omnis perspiciatis quas qui reiciendis repellat sed
-                                            voluptatibus?</p>
-                                    </div>
-                                    <div class="mynotes_card shadow-lite">
-                                        <div class="flex justify-between mb-3">
-                                            <h2 class="pr-3">Top English Resources</h2>
-                                            <a href="#">
-                                                <i class="fa-regular fa-pen-to-square"></i>
-                                            </a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa
-                                            dolores est eum explicabo harum inventore, iure laboriosam magnam nihil
-                                            numquam obcaecati omnis perspiciatis quas qui reiciendis repellat sed
-                                            voluptatibus?</p>
-                                    </div>
-                                    <div class="mynotes_card shadow-lite">
-                                        <div class="flex justify-between mb-3">
-                                            <h2 class="pr-3">Top English Resources</h2>
-                                            <a href="#">
-                                                <i class="fa-regular fa-pen-to-square"></i>
-                                            </a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa
-                                            dolores est eum explicabo harum inventore, iure laboriosam magnam nihil
-                                            numquam obcaecati omnis perspiciatis quas qui reiciendis repellat sed
-                                            voluptatibus?</p>
-                                    </div>
-                                </div>
+<!--                    <div id="chatui_expanded">-->
+<!--                        <label for="twitter"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></label>-->
+<!--                        <input name="twitter" type="text" value="mikeross" />-->
+<!--                        <label for="twitter"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></label>-->
+<!--                        <input name="twitter" type="text" value="ross81" />-->
+<!--                        <label for="twitter"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></label>-->
+<!--                        <input name="twitter" type="text" value="mike.ross" />-->
+<!--                    </div>-->
+                </div>
+            </div>
+            <div id="chatui_search">
+                <label for="">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </label>
+                <input type="text" placeholder="Search contacts..." />
+            </div>
+            <div id="chatui_contacts">
+                <ul>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status online"></span>
+                            <img src="http://emilcarlsson.se/assets/louislitt.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Louis Litt</p>
+                                <p class="preview">You just got LITT up, Mike.</p>
                             </div>
                         </div>
-                    </div>
+                    </li>
+                    <li class="chatui_contact active">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                            <div class="meta">
+                                <p class="name">JAHID Bhuiyan</p>
+                                <p class="preview">Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status away"></span>
+                            <img src="http://emilcarlsson.se/assets/rachelzane.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Rachel Zane</p>
+                                <p class="preview">I was thinking that we could have chicken tonight, sounds good?</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status online"></span>
+                            <img src="http://emilcarlsson.se/assets/donnapaulsen.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Donna Paulsen</p>
+                                <p class="preview">Mike, I know everything! I'm Donna..</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="http://emilcarlsson.se/assets/jessicapearson.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Jessica Pearson</p>
+                                <p class="preview">Have you finished the draft on the Hinsenburg deal?</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status"></span>
+                            <img src="http://emilcarlsson.se/assets/haroldgunderson.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Harold Gunderson</p>
+                                <p class="preview">Thanks Mike! :)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status"></span>
+                            <img src="http://emilcarlsson.se/assets/danielhardman.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Daniel Hardman</p>
+                                <p class="preview">We'll meet again, Mike. Tell Jessica I said 'Hi'.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="http://emilcarlsson.se/assets/katrinabennett.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Katrina Bennett</p>
+                                <p class="preview">I've sent you the files for the Garrett trial.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status"></span>
+                            <img src="http://emilcarlsson.se/assets/charlesforstman.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Charles Forstman</p>
+                                <p class="preview">Mike, this isn't over.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chatui_contact">
+                        <div class="chatui_contact_wrap">
+                            <span class="contact-status"></span>
+                            <img src="http://emilcarlsson.se/assets/jonathansidwell.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Jonathan Sidwell</p>
+                                <p class="preview"><span>You:</span> That's bullshit. This deal is solid.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="chatui_bottom-bar">
+                <button id="chatui_addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i> <span>Add contact</span></button>
+                <button id="chatui_settings"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> <span>Settings</span></button>
+            </div>
+        </div>
+        <div class="chatui_content">
+            <div class="chatui_content-contact-profile">
+                <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                <p>Harvey Specter</p>
+                <div class="chatui_social-media">
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="chatui_messages">
+                <ul>
+                    <li class="chatui_messages-sent">
+                        <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+                        <p>How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!</p>
+                    </li>
+                    <li class="chatui_messages-replies">
+                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                        <p>When you're backed against the wall, break the god damn thing down.</p>
+                    </li>
+                    <li class="chatui_messages-replies">
+                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                        <p>Excuses don't win championships.</p>
+                    </li>
+                    <li class="chatui_messages-sent">
+                        <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+                        <p>Oh yeah, did Michael Jordan tell you that?</p>
+                    </li>
+                    <li class="chatui_messages-replies">
+                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                        <p>No, I told him that.</p>
+                    </li>
+                    <li class="chatui_messages-replies">
+                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                        <p>What are your choices when someone puts a gun to your head?</p>
+                    </li>
+                    <li class="chatui_messages-sent">
+                        <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+                        <p>What are you talking about? You do what they say or they shoot you.</p>
+                    </li>
+                    <li class="chatui_messages-replies">
+                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                        <p>Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="chatui_messages-input">
+                <div class="chatui_messages-input">
+                    <input type="text" placeholder="Write your message..." />
+                    <i class="fa fa-paperclip chatui_attachment" aria-hidden="true"></i>
+                    <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
-    </main>
-    <!-- ======= Profile Section  || END ======= -->
-
+    </div>
+</main>
+    <!-- ======= Chat UI || END ======= -->
 
     <!-- ======= Footer Section  || START ======= -->
     <footer class="footer">

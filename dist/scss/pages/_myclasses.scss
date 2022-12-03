@@ -9,9 +9,15 @@
   border-radius: 0.25rem;
   background-color: #fff;
   border: 1px solid #d8dbe0;
+  @media (max-width: 768px) {
+   margin: 10px;
+  }
 }
 .enrolled-course{
   width: 49%;
+  @media (max-width: 768px) {
+   width: 100%;
+  }
 }
 .enrolled-course .shadow {
   box-shadow: 0 4px 13px rgba(0,0,0,.07)!important;
@@ -23,6 +29,9 @@
     font-size: 18px;
     line-height: 24px;
     text-transform: capitalize;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 }
 .enrolled-course .myclass_card {

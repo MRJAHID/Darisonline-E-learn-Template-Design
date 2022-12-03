@@ -52,9 +52,8 @@
       position: relative;
       width: auto;
       @media (max-width: 768px) {
-        justify-content: space-between;
+        justify-content: center;
         margin: 0 auto;
-        width: 312px;
       }
 
       li {
@@ -145,6 +144,9 @@
 .styles_formWrapper__Z_HP_ {
   display: flex;
   width: 70%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .styles_fullTextSearchInputWrapper__ywtzF {
@@ -197,6 +199,9 @@
   transition: all 50ms ease-in;
   color: #fff;
   background-color: #3bb3bd;
+  @media (max-width: 768px) {
+    min-width: 100px;
+  }
 
   &:hover {
     color: #fff;

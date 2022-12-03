@@ -30,10 +30,7 @@ function hideAnswer(target) {
   target.style.fontWeight = "400";
 }
 
-// Owl Carousel
-// $(document).ready(function () {
-//   $(".owl-carousel").owlCarousel();
-// });
+
 
 const sliderContainer = document.querySelector(".slider-container");
 const slideRight = document.querySelector(".right-slide");
@@ -63,10 +60,90 @@ const changeSlide = (direction) => {
     }
   }
 
-  slideRight.style.transform = `translateY(-${
-    activeSlideIndex * sliderHeight
-  }px)`;
-  slideLeft.style.transform = `translateY(${
-    activeSlideIndex * sliderHeight
-  }px)`;
+  function responsiveSlider(reponsiveSize) {
+    if (reponsiveSize.matches) { // If media query matches
+      slideRight.style.transform = `translateY(-${
+          activeSlideIndex * sliderHeight
+      }px)`;
+      slideLeft.style.transform = `translateY(-${
+          activeSlideIndex * sliderHeight
+      }px)`;
+    } else {
+      slideRight.style.transform = `translateY(-${
+          activeSlideIndex * sliderHeight
+      }px)`;
+      slideLeft.style.transform = `translateY(${
+          activeSlideIndex * sliderHeight
+      }px)`;
+    }
+  }
+
+  let reponsiveSize = window.matchMedia("(max-width: 700px)")
+  responsiveSlider(reponsiveSize)
+  //
+  // slideRight.style.transform = `translateY(-${
+  //   activeSlideIndex * sliderHeight
+  // }px)`;
+  // slideLeft.style.transform = `translateY(${
+  //   activeSlideIndex * sliderHeight
+  // }px)`;
 };
+
+
+
+// Chat UI
+$(".chatui_messages").animate({ scrollTop: $(document).height() }, "fast");
+
+$("#chatui_profile-img").click(function() {
+  $("#chatui_status-options").toggleClass("active");
+});
+
+$(".chatui_expand-button").click(function() {
+  $("#chatui_profile").toggleClass("expanded");
+  $("#chatui_contacts").toggleClass("expanded");
+});
+
+$("#chatui_status-options ul li").click(function() {
+  $("#profile-img").removeClass();
+  $("#status-online").removeClass("active");
+  $("#status-away").removeClass("active");
+  $("#status-busy").removeClass("active");
+  $("#status-offline").removeClass("active");
+  $(this).addClass("active");
+
+  if($("#status-online").hasClass("active")) {
+    $("#profile-img").addClass("online");
+  } else if ($("#status-away").hasClass("active")) {
+    $("#profile-img").addClass("away");
+  } else if ($("#status-busy").hasClass("active")) {
+    $("#profile-img").addClass("busy");
+  } else if ($("#status-offline").hasClass("active")) {
+    $("#profile-img").addClass("offline");
+  } else {
+    $("#profile-img").removeClass();
+  };
+
+  $("#chatui_status-options").removeClass("active");
+});
+
+function newMessage() {
+  message = $(".chatui_message-input input").val();
+  if($.trim(message) == '') {
+    return false;
+  }
+  $('<li class="chatui_sent"><img src="http://emilcarlsson.se/assets/mikeross.png" alt="" /><p>' + message + '</p></li>').appendTo($('.chatui_messages ul'));
+  $('.chatui_message-input input').val(null);
+  $('.contact.active .preview').html('<span>You: </span>' + message);
+  $(".chatui_messages").animate({ scrollTop: $(document).height() }, "fast");
+};
+
+$('.submit').click(function() {
+  newMessage();
+});
+
+$(window).on('keydown', function(e) {
+  if (e.which == 13) {
+    newMessage();
+    return false;
+  }
+});
