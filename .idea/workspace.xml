@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/scss/pages/_mylessons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylessons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_messages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/messages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/find-teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-change.html" beforeDir="false" afterPath="$PROJECT_DIR$/password-change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-method.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscription-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +97,7 @@
       <workItem from="1670032785359" duration="7453000" />
       <workItem from="1670235615243" duration="35000" />
       <workItem from="1670235667562" duration="2785000" />
-      <workItem from="1670249569065" duration="6794000" />
+      <workItem from="1670249569065" duration="7787000" />
     </task>
     <servers />
   </component>

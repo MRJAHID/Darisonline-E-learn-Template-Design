@@ -34,43 +34,81 @@
   <!-- ======= Header || START ======= -->
   <header class="header container px-2 mx-auto">
     <section class="header_container">
-      <div class="logo_container">
-        <a href="index.html" class="logo">
-          <img src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+      <div class="userauth_container w-full md:w-1/4">
+        <div class="userauth_container--login hidden md:block">
+          <!--  Logged Items // Profile icons  -->
+          <div class="header_iconGroup__1tKIQ hidden md:block">
+            <div class="header_iconLinks__bENRn">
+              <a class="header_link__3Jd0t" href="profile.html">
+                <div class="">
+                  <img style="height: auto;  width: 25px; border-radius: 50%;"
+                       src="https://avatars.preply.com/i/logos/7155579.jpg" alt="Profile"/>
+                </div>
+              </a>
+
+              <a class="header_link__3Jd0t" href="#">
+                <div class="">
+                  <svg fill="#384047" width="20" height="19" viewBox="0 0 20 19"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M2.342.998C.932 1.965.063 3.608.003 5.32c-.13 3.909 3.747 8.43 9.999 13.43 6.248-5 10.134-9.521 9.994-13.43-.06-1.713-.93-3.355-2.34-4.322-2.013-1.391-4.388-1.222-6.181-.142a5.976 5.976 0 0 0-1.476 1.25A5.957 5.957 0 0 0 8.53.86C6.736-.22 4.359-.387 2.343.998zm7.66 15.17c2.476-2.067 4.438-3.992 5.81-5.765 1.618-2.093 2.23-3.74 2.185-5.012V5.39c-.039-1.105-.607-2.15-1.472-2.743l-.005-.004c-1.66-1.146-3.79-.665-4.995.756L9.999 5.2l-1.525-1.8c-1.201-1.417-3.334-1.897-5-.753v.001c-.865.594-1.433 1.637-1.472 2.741-.042 1.275.574 2.924 2.19 5.015 1.37 1.774 3.333 3.698 5.81 5.765z"></path>
+                  </svg>
+                </div>
+              </a>
+
+              <a class="header_link__3Jd0t" href="messages.html">
+                <div class="">
+                  <svg fill="#384047" width="18" height="21" viewBox="0 0 18 21"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M0 18v-2l1.414-1.414A2 2 0 0 0 2 13.172V9c0-1.556.674-2.98 1.71-4.095A7.695 7.695 0 0 1 7.5 2.68V2c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v.68C13.37 3.36 16 5.93 16 9v4.172a2 2 0 0 0 .586 1.414L18 16v2H0zm15.172-2H2.828A4 4 0 0 0 4 13.172V9c0-1.916 1.75-3.848 3.963-4.374l1.035-.246 1.04.246C12.256 5.151 14 7.09 14 9v4.172A4.001 4.001 0 0 0 15.172 16zM11.5 19h-5c0 .364.123.705.337 1 .353.486.955.843 1.663.96a3.08 3.08 0 0 0 1 0c.708-.117 1.31-.474 1.663-.96.214-.295.337-.636.337-1z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!--  Logged out item // Login Button        -->
+          <!-- <a href="login.html"  class="userauth_container&#45;&#45;login hidden md:block">-->
+          <!-- <span> Login </span>-->
+          <!-- </a>-->
+        </div>
+        <!--  Mobile Items  -->
+        <a href="index.html" style="margin-left: -12px;" class="logo  block md:hidden w-full">
+          <img class="" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
         </a>
       </div>
-      <div  class="nav_container md:flex md:justify-between md:flex-1 hidden">
+      <div class="logo_container  md:w-1/4">
+        <a href="index.html" class="logo  hidden md:block">
+          <img class="ml-auto" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+        </a>
+        <a href="login.html" class="userauth_container--bar px-4 block md:hidden">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </a>
+      </div>
+      <div class="nav_container md:flex md:justify-end hidden w-2/4">
         <nav>
           <ul>
+            <label>
+              <select class="lang-select bg-inherit">
+                <option value="1">English</option>
+                <option value="2">Arabic</option>
+              </select>
+            </label>
             <li>
               <a href="find-teacher.html">Find Tutors</a>
             </li>
             <li>
-              <a href="#">Group Classes</a>
+              <a href="payment-method.html">Payment</a>
             </li>
             <li>
-              <a href="#">Corporate Training</a>
+              <a href="site-information.html">Site Information</a>
             </li>
-            <li>
-              <a href="#">Become a tutor</a>
-            </li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="conditions.html">Condition</a></li>
           </ul>
         </nav>
-        <div class="language_select">
-          <p>English <span></span></p>
-        </div>
       </div>
-      <div class="userauth_container">
-        <a href="login.html"  class="userauth_container--login hidden md:block">
-          <span> Login </span>
-        </a>
-        <a href="login.html" class="userauth_container--bar block md:hidden">
-             <span>
-            <i class="fa-solid fa-bars"></i>
-          </span>
-        </a>
-      </div>
+
     </section>
   </header>
   <!-- ======= Header || END ======= -->
