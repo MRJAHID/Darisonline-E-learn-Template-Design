@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/scss/pages/_site-information.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-information.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/abstract/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/abstract/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_hero.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_mylesson.scss" beforeDir="false" afterPath="$PROJECT_DIR$/conditions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/mylesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_conditions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_site-information.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_site-information.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-information.html" beforeDir="false" afterPath="$PROJECT_DIR$/site-information.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +86,7 @@
       <workItem from="1670032785359" duration="7453000" />
       <workItem from="1670235615243" duration="35000" />
       <workItem from="1670235667562" duration="2785000" />
-      <workItem from="1670249569065" duration="2966000" />
+      <workItem from="1670249569065" duration="5755000" />
     </task>
     <servers />
   </component>
