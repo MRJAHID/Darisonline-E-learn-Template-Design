@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_site-information.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_site-information.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-information.html" beforeDir="false" afterPath="$PROJECT_DIR$/site-information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_messages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/messages.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <workItem from="1670032785359" duration="7453000" />
       <workItem from="1670235615243" duration="35000" />
       <workItem from="1670235667562" duration="2785000" />
-      <workItem from="1670249569065" duration="5755000" />
+      <workItem from="1670249569065" duration="6794000" />
     </task>
     <servers />
   </component>
