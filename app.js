@@ -88,68 +88,6 @@ const changeSlide = (direction) => {
   // }px)`;
 };
 
-// Chat UI
-$(".chatui_messages").animate({ scrollTop: $(document).height() }, "fast");
-
-$("#chatui_profile-img").click(function () {
-  $("#chatui_status-options").toggleClass("active");
-});
-
-$(".chatui_expand-button").click(function () {
-  $("#chatui_profile").toggleClass("expanded");
-  $("#chatui_contacts").toggleClass("expanded");
-});
-
-$("#chatui_status-options ul li").click(function () {
-  $("#profile-img").removeClass();
-  $("#status-online").removeClass("active");
-  $("#status-away").removeClass("active");
-  $("#status-busy").removeClass("active");
-  $("#status-offline").removeClass("active");
-  $(this).addClass("active");
-
-  if ($("#status-online").hasClass("active")) {
-    $("#profile-img").addClass("online");
-  } else if ($("#status-away").hasClass("active")) {
-    $("#profile-img").addClass("away");
-  } else if ($("#status-busy").hasClass("active")) {
-    $("#profile-img").addClass("busy");
-  } else if ($("#status-offline").hasClass("active")) {
-    $("#profile-img").addClass("offline");
-  } else {
-    $("#profile-img").removeClass();
-  }
-
-  $("#chatui_status-options").removeClass("active");
-});
-
-function newMessage() {
-  message = $(".chatui_message-input input").val();
-  if ($.trim(message) == "") {
-    return false;
-  }
-  $(
-    '<li class="chatui_sent"><img src="http://emilcarlsson.se/assets/mikeross.png" alt="" /><p>' +
-      message +
-      "</p></li>"
-  ).appendTo($(".chatui_messages ul"));
-  $(".chatui_message-input input").val(null);
-  $(".contact.active .preview").html("<span>You: </span>" + message);
-  $(".chatui_messages").animate({ scrollTop: $(document).height() }, "fast");
-}
-
-$(".submit").click(function () {
-  newMessage();
-});
-
-$(window).on("keydown", function (e) {
-  if (e.which == 13) {
-    newMessage();
-    return false;
-  }
-});
-
-
 // Header Scroll
 // $(window).scroll(function(){
 //   if ($(window).scrollTop() >= 300) {
@@ -161,3 +99,18 @@ $(window).on("keydown", function (e) {
 //     $('nav div').removeClass('visible-title');
 //   }
 // });
+
+// Mobile Side nav js
+
+function toggleAside() {
+  let className = "left-0";
+  let aside = document.getElementById("aside");
+  if (aside.classList.contains(className)) {
+    aside.classList.add("left-100");
+    aside.classList.remove(className);
+  } else {
+    aside.classList.add(className);
+    aside.classList.remove("left-100");
+  }
+  // document.getElementById("aside").classList.add("left-0");
+}
