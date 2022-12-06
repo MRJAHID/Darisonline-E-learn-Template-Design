@@ -38,12 +38,19 @@
   .footer--nav-content{
     li {
       font-size: 14px;
+      @media (max-width: 768px) {
+        width: 45%;
+        margin: 10px 0;
+      }
       a.footer--nav-link{
         margin-bottom: 22px;
         font-weight: 400;
         display: block;
         font-size: 18px!important;
         color: $dark-text!important;
+        @media (max-width: 768px) {
+          margin-bottom: 12px;
+        }
       }
       .footer--nav-content--nested{
         li{

@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/abstract/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/abstract/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/layouts/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/layouts/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,8 @@
       <workItem from="1670235615243" duration="35000" />
       <workItem from="1670235667562" duration="2785000" />
       <workItem from="1670249569065" duration="7787000" />
-      <workItem from="1670258465508" duration="2954000" />
+      <workItem from="1670258465508" duration="3516000" />
+      <workItem from="1670307277056" duration="1254000" />
     </task>
     <servers />
   </component>
