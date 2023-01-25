@@ -25,6 +25,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<!--    Slider -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <!-- Main Css -->
     <link rel="stylesheet" href="./dist/css/index.css"/>
 </head>
@@ -38,29 +44,108 @@
                     <!--  Logged Items // Profile icons  -->
                     <div class="header_iconGroup__1tKIQ hidden md:block">
                         <div class="header_iconLinks__bENRn">
-                            <a class="header_link__3Jd0t" href="profile.html">
+                            <!--                            <a class="header_link__3Jd0t" href="profile.html">-->
+                            <!--                                <div class="">-->
+                            <!--                                    <img style="height: auto;  width: 25px; border-radius: 50%;"-->
+                            <!--                                         src="https://avatars.preply.com/i/logos/7155579.jpg" alt="Profile"/>-->
+                            <!--                                </div>-->
+                            <!--                            </a>-->
+
+                            <!--                            <a class="header_link__3Jd0t" href="#">-->
+                            <!--                                <div class="">-->
+                            <!--                                    <svg fill="#384047" width="20" height="19" viewBox="0 0 20 19"-->
+                            <!--                                         xmlns="http://www.w3.org/2000/svg">-->
+                            <!--                                        <path fill-rule="evenodd" clip-rule="evenodd"-->
+                            <!--                                              d="M2.342.998C.932 1.965.063 3.608.003 5.32c-.13 3.909 3.747 8.43 9.999 13.43 6.248-5 10.134-9.521 9.994-13.43-.06-1.713-.93-3.355-2.34-4.322-2.013-1.391-4.388-1.222-6.181-.142a5.976 5.976 0 0 0-1.476 1.25A5.957 5.957 0 0 0 8.53.86C6.736-.22 4.359-.387 2.343.998zm7.66 15.17c2.476-2.067 4.438-3.992 5.81-5.765 1.618-2.093 2.23-3.74 2.185-5.012V5.39c-.039-1.105-.607-2.15-1.472-2.743l-.005-.004c-1.66-1.146-3.79-.665-4.995.756L9.999 5.2l-1.525-1.8c-1.201-1.417-3.334-1.897-5-.753v.001c-.865.594-1.433 1.637-1.472 2.741-.042 1.275.574 2.924 2.19 5.015 1.37 1.774 3.333 3.698 5.81 5.765z"></path>-->
+                            <!--                                    </svg>-->
+                            <!--                                </div>-->
+                            <!--                            </a>-->
+
+                            <!--                            <a class="header_link__3Jd0t" href="messages.html">-->
+                            <!--                                <div class="">-->
+                            <!--                                    <svg fill="#384047" width="18" height="21" viewBox="0 0 18 21"-->
+                            <!--                                         xmlns="http://www.w3.org/2000/svg">-->
+                            <!--                                        <path fill-rule="evenodd" clip-rule="evenodd"-->
+                            <!--                                              d="M0 18v-2l1.414-1.414A2 2 0 0 0 2 13.172V9c0-1.556.674-2.98 1.71-4.095A7.695 7.695 0 0 1 7.5 2.68V2c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v.68C13.37 3.36 16 5.93 16 9v4.172a2 2 0 0 0 .586 1.414L18 16v2H0zm15.172-2H2.828A4 4 0 0 0 4 13.172V9c0-1.916 1.75-3.848 3.963-4.374l1.035-.246 1.04.246C12.256 5.151 14 7.09 14 9v4.172A4.001 4.001 0 0 0 15.172 16zM11.5 19h-5c0 .364.123.705.337 1 .353.486.955.843 1.663.96a3.08 3.08 0 0 0 1 0c.708-.117 1.31-.474 1.663-.96.214-.295.337-.636.337-1z"></path>-->
+                            <!--                                    </svg>-->
+                            <!--                                </div>-->
+                            <!--                            </a>-->
+
+                            <!--      Facebook    -->
+                            <a class="header_link__3Jd0t" href="messages.html">
                                 <div class="">
-                                    <img style="height: auto;  width: 25px; border-radius: 50%;"
-                                         src="https://avatars.preply.com/i/logos/7155579.jpg" alt="Profile"/>
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg width="20px" height="20px" viewBox="0 0 16 16"
+                                         xmlns="http://www.w3.org/2000/svg" fill="none">
+                                        <path fill="#1877F2"
+                                              d="M15 8a7 7 0 00-7-7 7 7 0 00-1.094 13.915v-4.892H5.13V8h1.777V6.458c0-1.754 1.045-2.724 2.644-2.724.766 0 1.567.137 1.567.137v1.723h-.883c-.87 0-1.14.54-1.14 1.093V8h1.941l-.31 2.023H9.094v4.892A7.001 7.001 0 0015 8z"/>
+                                        <path fill="#ffffff"
+                                              d="M10.725 10.023L11.035 8H9.094V6.687c0-.553.27-1.093 1.14-1.093h.883V3.87s-.801-.137-1.567-.137c-1.6 0-2.644.97-2.644 2.724V8H5.13v2.023h1.777v4.892a7.037 7.037 0 002.188 0v-4.892h1.63z"/>
+                                    </svg>
                                 </div>
                             </a>
-
-                            <a class="header_link__3Jd0t" href="#">
+                            <!--        Twitter    -->
+                            <a class="header_link__3Jd0t" href="messages.html">
                                 <div class="">
-                                    <svg fill="#384047" width="20" height="19" viewBox="0 0 20 19"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                              d="M2.342.998C.932 1.965.063 3.608.003 5.32c-.13 3.909 3.747 8.43 9.999 13.43 6.248-5 10.134-9.521 9.994-13.43-.06-1.713-.93-3.355-2.34-4.322-2.013-1.391-4.388-1.222-6.181-.142a5.976 5.976 0 0 0-1.476 1.25A5.957 5.957 0 0 0 8.53.86C6.736-.22 4.359-.387 2.343.998zm7.66 15.17c2.476-2.067 4.438-3.992 5.81-5.765 1.618-2.093 2.23-3.74 2.185-5.012V5.39c-.039-1.105-.607-2.15-1.472-2.743l-.005-.004c-1.66-1.146-3.79-.665-4.995.756L9.999 5.2l-1.525-1.8c-1.201-1.417-3.334-1.897-5-.753v.001c-.865.594-1.433 1.637-1.472 2.741-.042 1.275.574 2.924 2.19 5.015 1.37 1.774 3.333 3.698 5.81 5.765z"></path>
+                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                    <svg width="20px" height="20px" viewBox="0 -4 48 48" version="1.1"
+                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                                        <title>Twitter-color</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs>
+
+                                        </defs>
+                                        <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Color-" transform="translate(-300.000000, -164.000000)"
+                                               fill="#00AAEC">
+                                                <path d="M348,168.735283 C346.236309,169.538462 344.337383,170.081618 342.345483,170.324305 C344.379644,169.076201 345.940482,167.097147 346.675823,164.739617 C344.771263,165.895269 342.666667,166.736006 340.418384,167.18671 C338.626519,165.224991 336.065504,164 333.231203,164 C327.796443,164 323.387216,168.521488 323.387216,174.097508 C323.387216,174.88913 323.471738,175.657638 323.640782,176.397255 C315.456242,175.975442 308.201444,171.959552 303.341433,165.843265 C302.493397,167.339834 302.008804,169.076201 302.008804,170.925244 C302.008804,174.426869 303.747139,177.518238 306.389857,179.329722 C304.778306,179.280607 303.256911,178.821235 301.9271,178.070061 L301.9271,178.194294 C301.9271,183.08848 305.322064,187.17082 309.8299,188.095341 C309.004402,188.33225 308.133826,188.450704 307.235077,188.450704 C306.601162,188.450704 305.981335,188.390033 305.381229,188.271578 C306.634971,192.28169 310.269414,195.2026 314.580032,195.280607 C311.210424,197.99061 306.961789,199.605634 302.349709,199.605634 C301.555203,199.605634 300.769149,199.559408 300,199.466956 C304.358514,202.327194 309.53689,204 315.095615,204 C333.211481,204 343.114633,188.615385 343.114633,175.270495 C343.114633,174.831347 343.106181,174.392199 343.089276,173.961719 C345.013559,172.537378 346.684275,170.760563 348,168.735283"
+                                                      id="Twitter">
+
+                                                </path>
+                                            </g>
+                                        </g>
                                     </svg>
                                 </div>
                             </a>
 
+                            <!--      Youtube    -->
                             <a class="header_link__3Jd0t" href="messages.html">
                                 <div class="">
-                                    <svg fill="#384047" width="18" height="21" viewBox="0 0 18 21"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                              d="M0 18v-2l1.414-1.414A2 2 0 0 0 2 13.172V9c0-1.556.674-2.98 1.71-4.095A7.695 7.695 0 0 1 7.5 2.68V2c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v.68C13.37 3.36 16 5.93 16 9v4.172a2 2 0 0 0 .586 1.414L18 16v2H0zm15.172-2H2.828A4 4 0 0 0 4 13.172V9c0-1.916 1.75-3.848 3.963-4.374l1.035-.246 1.04.246C12.256 5.151 14 7.09 14 9v4.172A4.001 4.001 0 0 0 15.172 16zM11.5 19h-5c0 .364.123.705.337 1 .353.486.955.843 1.663.96a3.08 3.08 0 0 0 1 0c.708-.117 1.31-.474 1.663-.96.214-.295.337-.636.337-1z"></path>
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="red" d="M14.712 4.633a1.754 1.754 0 00-1.234-1.234C12.382 3.11 8 3.11 8 3.11s-4.382 0-5.478.289c-.6.161-1.072.634-1.234 1.234C1 5.728 1 8 1 8s0 2.283.288 3.367c.162.6.635 1.073 1.234 1.234C3.618 12.89 8 12.89 8 12.89s4.382 0 5.478-.289a1.754 1.754 0 001.234-1.234C15 10.272 15 8 15 8s0-2.272-.288-3.367z"/><path fill="#ffffff" d="M6.593 10.11l3.644-2.098-3.644-2.11v4.208z"/></svg>
+                                </div>
+                            </a>
+
+                            <!--      Instagram    -->
+                            <a class="header_link__3Jd0t" href="messages.html">
+                                <div class="">
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg width="20px" height="20px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)"/>
+                                        <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)"/>
+                                        <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)"/>
+                                        <path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z" fill="white"/>
+                                        <defs>
+                                            <radialGradient id="paint0_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)">
+                                                <stop stop-color="#B13589"/>
+                                                <stop offset="0.79309" stop-color="#C62F94"/>
+                                                <stop offset="1" stop-color="#8A3AC8"/>
+                                            </radialGradient>
+                                            <radialGradient id="paint1_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)">
+                                                <stop stop-color="#E0E8B7"/>
+                                                <stop offset="0.444662" stop-color="#FB8A2E"/>
+                                                <stop offset="0.71474" stop-color="#E2425C"/>
+                                                <stop offset="1" stop-color="#E2425C" stop-opacity="0"/>
+                                            </radialGradient>
+                                            <radialGradient id="paint2_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)">
+                                                <stop offset="0.156701" stop-color="#406ADC"/>
+                                                <stop offset="0.467799" stop-color="#6A45BE"/>
+                                                <stop offset="1" stop-color="#6A45BE" stop-opacity="0"/>
+                                            </radialGradient>
+                                        </defs>
                                     </svg>
                                 </div>
                             </a>
@@ -144,133 +229,179 @@
     <!-- ======= Hero Slider || START ======= -->
     <section class="hero-slider">
         <div class="hero-slider_container">
-            <div class="slider-container">
-                <div class="left-slide">
-                    <div style="background-color: #fffffc">
-                        <div class="slider-text">
-                            <div class=" text-left md:text-right px-2 md:px-6 py-1 md:py-4">
-                                <h2 class="mb-4">Learn <span>Arabic</span> In Awesome Way.</h2>
-                                <h3 class="h5 mb-2">Live classes online 24/7</h3>
-                                <h3 class="h5 mb-4">Learn in small groups</h3>
-                                <div class="flex justify-start md:justify-end">
-                                    <div class="w-5/6">
-                                        <p>Get access to lessons from the experts and connect with a community of native
-                                            speakers to help you master words faster.</p>
-                                    </div>
+<!--            <div class="slider-container">-->
+<!--                <div class="left-slide">-->
+<!--                    <div style="background-color: #fffffc">-->
+<!--                        <div class="slider-text">-->
+<!--                            <div class=" text-left md:text-right px-2 md:px-6 py-1 md:py-4">-->
+<!--                                <h2 class="mb-4">Learn <span>Arabic</span> In Awesome Way.</h2>-->
+<!--                                <h3 class="h5 mb-2">Live classes online 24/7</h3>-->
+<!--                                <h3 class="h5 mb-4">Learn in small groups</h3>-->
+<!--                                <div class="flex justify-start md:justify-end">-->
+<!--                                    <div class="w-5/6">-->
+<!--                                        <p>Get access to lessons from the experts and connect with a community of native-->
+<!--                                            speakers to help you master words faster.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <p class="my-3 md:my-1">-->
+<!--                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning-->
+<!--                                        Today-->
+<!--                                    </button>-->
+<!--                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div style="background-color: #fffffc">-->
+<!--                        <div class="slider-text">-->
+<!--                            <div class="text-right px-2 md:px-6 py-1 md:py-4">-->
+<!--                                <h2 class="mb-4">news about education in <span>Jordan</span>.</h2>-->
+<!--                                <h3 class="h5 mb-2">Live classes online 24/7</h3>-->
+<!--                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>-->
+<!--                                <div class="flex justify-end">-->
+<!--                                    <div class="w-5/6">-->
+<!--                                        <p>Get access to lessons from the experts and connect with a community of native-->
+<!--                                            speakers to help you master words faster.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <p class="my-3 md:my-1">-->
+<!--                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning-->
+<!--                                        Today-->
+<!--                                    </button>-->
+<!--                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div style="background-color: #fffffc">-->
+<!--                        <div class="slider-text">-->
+<!--                            <div class="text-right px-2 md:px-6 py-1 md:py-4">-->
+<!--                                <h2 class="mb-4">news about education in <span>Arabic World</span>.</h2>-->
+<!--                                <h3 class="h5 mb-2">Live classes online 24/7</h3>-->
+<!--                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>-->
+<!--                                <div class="flex justify-end">-->
+<!--                                    <div class="w-5/6">-->
+<!--                                        <p>Get access to lessons from the experts and connect with a community of native-->
+<!--                                            speakers to help you master words faster.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <p class="my-3 md:my-1">-->
+<!--                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning-->
+<!--                                        Today-->
+<!--                                    </button>-->
+<!--                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div style="background-color: #fffffc">-->
+<!--                        <div class="slider-text">-->
+<!--                            <div class="text-right px-2 md:px-6 py-1 md:py-4">-->
+<!--                                <h2 class="mb-4">news about education in <span>The World</span>.</h2>-->
+<!--                                <h3 class="h5 mb-2">Live classes online 24/7</h3>-->
+<!--                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>-->
+<!--                                <div class="flex justify-end">-->
+<!--                                    <div class="w-5/6">-->
+<!--                                        <p>Get access to lessons from the experts and connect with a community of native-->
+<!--                                            speakers to help you master words faster.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <p class="my-3 md:my-1">-->
+<!--                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning-->
+<!--                                        Today-->
+<!--                                    </button>-->
+<!--                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div style="background-color: #fffffc">-->
+<!--                        <div class="slider-text">-->
+<!--                            <div class="text-right px-2 md:px-6 py-1 md:py-4">-->
+<!--                                <h2 class="mb-4">Learn <span>Arabic</span> In Awesome Way.</h2>-->
+<!--                                <h3 class="h5 mb-2">Live classes online 24/7</h3>-->
+<!--                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>-->
+<!--                                <div class="flex justify-end">-->
+<!--                                    <div class="w-5/6">-->
+<!--                                        <p>Get access to lessons from the experts and connect with a community of native-->
+<!--                                            speakers to help you master words faster.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <p class="my-3 md:my-1">-->
+<!--                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning-->
+<!--                                        Today-->
+<!--                                    </button>-->
+<!--                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="right-slide">-->
+<!--                    <div style="background-image: url('./dist/images/slider/slider-1.avif');">-->
+<!--                    </div>-->
+<!--                    <div style="background-image: url('./dist/images/slider/slider-2.avif');"></div>-->
+<!--                    <div style="background-image: url('./dist/images/slider/slider-3.avif');"></div>-->
+<!--                    <div style="background-image: url('./dist/images/slider/slider-4.png');"></div>-->
+<!--                </div>-->
+<!--                <div class="action-buttons">-->
+<!--                    <button class="down-button">-->
+<!--                        <i class="fas fa-arrow-down"></i>-->
+<!--                    </button>-->
+<!--                    <button class="up-button">-->
+<!--                        <i class="fas fa-arrow-up"></i>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
+            <main class="slider_main">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-image">
+                                    <img src="https://source.unsplash.com/1280x720/?nature" alt="Image Slider">
                                 </div>
-                                <p class="my-3 md:my-1">
-                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning
-                                        Today
-                                    </button>
-                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>
-                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-image">
+                                    <img src="https://source.unsplash.com/1280x720/?nature,water,animal" alt="Image Slider">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-image">
+                                    <img src="https://source.unsplash.com/1280x720/?water" alt="Image Slider">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-image">
+                                    <img src="https://source.unsplash.com/1280x720/?animal" alt="Image Slider">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-image">
+                                    <img src="https://source.unsplash.com/1280x720/?travel" alt="Image Slider">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-image">
+                                    <img src="https://source.unsplash.com/1280x720/?flower" alt="Image Slider">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div style="background-color: #fffffc">
-                        <div class="slider-text">
-                            <div class="text-right px-2 md:px-6 py-1 md:py-4">
-                                <h2 class="mb-4">news about education in <span>Jordan</span>.</h2>
-                                <h3 class="h5 mb-2">Live classes online 24/7</h3>
-                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>
-                                <div class="flex justify-end">
-                                    <div class="w-5/6">
-                                        <p>Get access to lessons from the experts and connect with a community of native
-                                            speakers to help you master words faster.</p>
-                                    </div>
-                                </div>
-                                <p class="my-3 md:my-1">
-                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning
-                                        Today
-                                    </button>
-                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>
-                                </p>
-                            </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Scrollbar -->
+                        <div class="swiper-button-next">
+                            <i class="fas fa-chevron-circle-right arrow-icon"></i>
                         </div>
-                    </div>
-                    <div style="background-color: #fffffc">
-                        <div class="slider-text">
-                            <div class="text-right px-2 md:px-6 py-1 md:py-4">
-                                <h2 class="mb-4">news about education in <span>Arabic World</span>.</h2>
-                                <h3 class="h5 mb-2">Live classes online 24/7</h3>
-                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>
-                                <div class="flex justify-end">
-                                    <div class="w-5/6">
-                                        <p>Get access to lessons from the experts and connect with a community of native
-                                            speakers to help you master words faster.</p>
-                                    </div>
-                                </div>
-                                <p class="my-3 md:my-1">
-                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning
-                                        Today
-                                    </button>
-                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="background-color: #fffffc">
-                        <div class="slider-text">
-                            <div class="text-right px-2 md:px-6 py-1 md:py-4">
-                                <h2 class="mb-4">news about education in <span>The World</span>.</h2>
-                                <h3 class="h5 mb-2">Live classes online 24/7</h3>
-                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>
-                                <div class="flex justify-end">
-                                    <div class="w-5/6">
-                                        <p>Get access to lessons from the experts and connect with a community of native
-                                            speakers to help you master words faster.</p>
-                                    </div>
-                                </div>
-                                <p class="my-3 md:my-1">
-                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning
-                                        Today
-                                    </button>
-                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="background-color: #fffffc">
-                        <div class="slider-text">
-                            <div class="text-right px-2 md:px-6 py-1 md:py-4">
-                                <h2 class="mb-4">Learn <span>Arabic</span> In Awesome Way.</h2>
-                                <h3 class="h5 mb-2">Live classes online 24/7</h3>
-                                <h3 class="h5 mb-4">Learn in small groups or 1-on-1</h3>
-                                <div class="flex justify-end">
-                                    <div class="w-5/6">
-                                        <p>Get access to lessons from the experts and connect with a community of native
-                                            speakers to help you master words faster.</p>
-                                    </div>
-                                </div>
-                                <p class="my-3 md:my-1">
-                                    <button type="button" class="btn btn-outline-dark mb-4 py-5 px-6">Start Learning
-                                        Today
-                                    </button>
-                                    <button type="button" class="btn btn-dark mb-2 py-3 px-4">Find Tutor</button>
-                                </p>
-                            </div>
+                        <div class="swiper-button-prev">
+                            <i class="fas fa-chevron-circle-left arrow-icon"></i>
                         </div>
                     </div>
                 </div>
-                <div class="right-slide">
-                    <div style="background-image: url('./dist/images/slider/slider-1.avif');">
-                    </div>
-                    <div style="background-image: url('./dist/images/slider/slider-2.avif');"></div>
-                    <div style="background-image: url('./dist/images/slider/slider-3.avif');"></div>
-                    <div style="background-image: url('./dist/images/slider/slider-4.png');"></div>
-                </div>
-                <div class="action-buttons">
-                    <button class="down-button">
-                        <i class="fas fa-arrow-down"></i>
-                    </button>
-                    <button class="up-button">
-                        <i class="fas fa-arrow-up"></i>
-                    </button>
-                </div>
-            </div>
+            </main>
         </div>
 
-        </div>
     </section>
     <!-- ======= Hero Slider || END ======= -->
 
@@ -924,19 +1055,16 @@
                                         <a title="Blog" target="_blank" href="#" class="">About Us</a>
                                     </li>
                                     <li>
-                                        <a title="Blog" target="_blank" href="#" class="">Corporate</a>
+                                        <a title="Blog" target="_blank" href="find-teacher.html" class="">Find Tutor</a>
                                     </li>
                                     <li>
-                                        <a title="Blog" target="_blank" href="#" class="">Blog</a>
+                                        <a title="Blog" target="_blank" href="payment-method.html" class="">Payment</a>
                                     </li>
                                     <li>
-                                        <a title="Blog" target="_blank" href="#" class="">Career</a>
+                                        <a title="Blog" target="_blank" href="site-information.html" class="">Site Information</a>
                                     </li>
                                     <li>
-                                        <a title="Blog" target="_blank" href="#" class="">Press</a>
-                                    </li>
-                                    <li>
-                                        <a title="Blog" target="_blank" href="#" class="">Research</a>
+                                        <a title="Blog" target="_blank" href="conditions.html" class="">Conditions</a>
                                     </li>
                                 </ul>
                             </li>
@@ -992,7 +1120,7 @@
             <div class="footer_copyright pt-8">
                 <div class="copyright-col text-center">
                     <span class="sub"
-                          style="line-height:2">© Copyright 2022 Darisonline.com - All Rights Reserved</span>
+                          style="line-height:2">© Copyright 2023 Darisonline.com - All Rights Reserved</span>
                 </div>
             </div>
         </div>
@@ -1001,6 +1129,32 @@
 
 
     <!-- ======= SCRIPTS ======= -->
+    <script  type="module" src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
     <script src="./app.js"></script>
     <!-- ======= SCRIPTS ======= -->
 </main>
