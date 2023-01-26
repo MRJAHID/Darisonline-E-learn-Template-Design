@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +29,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.13.0",
     "javascript.nodejs.core.library.typings.version": "18.11.18",
-    "last_opened_file_path": "/home/jahid/Documents/darisonline",
+    "last_opened_file_path": "/home/jahid/Documents/Projects/Darisonline-e-learn-template",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,6 +104,7 @@
       <workItem from="1674675769970" duration="271000" />
       <workItem from="1674676042096" duration="283000" />
       <workItem from="1674711838828" duration="2332000" />
+      <workItem from="1674714617740" duration="4552000" />
     </task>
     <servers />
   </component>
