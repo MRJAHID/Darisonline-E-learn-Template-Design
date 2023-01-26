@@ -1,4 +1,6 @@
 {
+  "name": "darisonline",
+  "version": "0.1.0",
   "type": "module",
 
   "devDependencies": {
@@ -11,5 +13,5 @@
   },
   "dependencies": {
     "swiper": "^8.4.6"
-  },
+  }
 }

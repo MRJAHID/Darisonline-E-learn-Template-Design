@@ -1,11 +1,14 @@
 .siteinfo {
-  padding-top: 4rem;
+  padding-top: 2rem;
   background-color: #fff;
+  @media (max-width: 768px) {
+    padding-top: 0.7rem;
+  }
 }
 
 .siteinfo_categories {
   background: #75bb39;
-  background: linear-gradient(85deg, #75bb39, #56ae68);
+  background: linear-gradient(85deg, #393dbb, #5675ae);
   padding: 40px 6rem 55px;
   position: relative;
   @media (max-width: 768px) {
@@ -58,7 +61,7 @@
 
       li {
         align-items: center;
-        background: #fff;
+        background: #ffd700;
         border-radius: 25px;
         box-shadow: 0 0 6px rgb(0 0 0 / 10%);
         display: flex;
@@ -69,13 +72,15 @@
         text-align: center;
         transition: transform .3s ease-in-out;
         width: 183px;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
         @media (max-width: 768px) {
           border-radius: 8px;
           display: inline;
-          height: 72px;
           margin: 0 16px 12px 0;
           padding: 0;
           width: 45%;
+          height: auto;
         }
 
         &:hover {
@@ -84,38 +89,37 @@
 
         a {
           color: $dark-text;
+          margin-bottom: 32px;
+
           @media (max-width: 768px) {
             color: #5d676e;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            height: 72px;
+            height: 105px;
             justify-content: center;
-            padding: 0 2px 0 56px;
+            margin-top: 8px;
             position: relative;
             text-align: left;
             width: 100%;
           }
 
           img {
-            margin: 10px auto;
+            margin: 4px auto;
+
             @media (max-width: 768px) {
               height: auto;
-              left: 12px;
-              margin-bottom: 6px;
-              position: absolute;
-              top: 32%;
-              transform: translateY(-50%);
-              width: 22px;
+              width: 20px;
             }
           }
 
           h4 {
-            font-size: 16px;
+            font-size: 11px;
             font-weight: 400;
-            margin-bottom: 2px;
+            text-align: center;
+            margin-bottom: 1px;
             @media (max-width: 768px) {
-              font-size: 14px;
+              font-size: 11px;
             }
           }
 

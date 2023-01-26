@@ -153,6 +153,9 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
       width: 100%;
       padding: 6px 2rem;
       margin: 0 auto;
+    @media (max-width: 768px) {
+      padding: 6px 0.5rem;
+    }
     .swiper {
       .swiper-wrapper {
         .swiper-slide {
