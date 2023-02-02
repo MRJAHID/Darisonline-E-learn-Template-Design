@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Chat || Darisonline</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subjects | Darisonline</title>
     <!-- Favicon -->
     <link
             rel="icon"
@@ -12,21 +13,22 @@
             sizes="any"
     />
     <!-- Rubik Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
             href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
             rel="stylesheet"
     />
     <!-- Tailwind Css Pack -->
-    <link href="./dist/css/tailwind/tailwind.css" rel="stylesheet"/>
+    <link href="./dist/css/tailwind/tailwind.css" rel="stylesheet" />
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Main Css -->
-    <link rel="stylesheet" href="./dist/css/index.css"/>
+    <link rel="stylesheet" href="./dist/css/index.css" />
 </head>
 <body class="antialiased">
 <main>
@@ -117,56 +119,202 @@
     </header>
     <!-- ======= Header || END ======= -->
 
-    <!-- ======= Chat UI || START ======= -->
-    <main class="chatui">
-        <div class="container">
-            <div class="chat_box">
-                <div class="head">
-                    <div class="user">
-                        <div class="avatar">
-                            <img src="https://picsum.photos/g/40/40" />
-                        </div>
-                        <div class="name">Kai Cheng</div>
-                    </div>
-                    <ul class="bar_tool">
-                        <li><span class="alink"><i class="fas fa-phone"></i></span></li>
-                        <li><span class="alink"><i class="fas fa-video"></i></span></li>
-                        <li><span class="alink"><i class="fas fa-ellipsis-v"></i></span></li>
-                    </ul>
-                </div>
-                <div class="body">
-                    <div class="incoming">
-                        <div class="bubble">
-                            <p>Hey, Father's Day is coming up..</p>
-                        </div>
-                        <div class="bubble">
-                            <p>What are you getting.. Oh, oops sorry dude.</p>
-                        </div>
-                    </div>
-                    <div class="outgoing">
-                        <div class="bubble lower">
-                            <p>Nah, it's cool.</p>
-                        </div>
-                        <div class="bubble">
-                            <p>Well you should get your Dad a cologne. Here smell it. Oh wait! ...</p>
-                        </div>
-                    </div>
-                    <div class="typing">
-                        <div class="bubble">
-                            <div class="ellipsis dot_1"></div>
-                            <div class="ellipsis dot_2"></div>
-                            <div class="ellipsis dot_3"></div>
-                        </div>
+    <!-- ======= Find Teacher Section || START ======= -->
+    <main class="relative">
+        <div class="find-teacher mx-auto">
+            <header class="find-teacher_header relative">
+                <div class="find-teacher_header-text_wrapper pl-1 md:pl-8">
+                    <div class="find-teacher_header-text">
+                        <h1 class="">Online <span
+                                class="">English</span> tutors &amp; teachers for private lessons</h1>
+                        <p>Looking for an online English tutor? Darisonline is the leading
+                            online language learning platform worldwide. You can choose from 11982 English teachers with an average
+                            rating of 4.9 out of 5 stars given by 100485 customers.
+                        </p>
                     </div>
                 </div>
-                <div class="foot">
-                    <input type="text" class="msg" placeholder="Type a message..." />
-                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </header>
+            <main class="find-teacher-main container mx-auto px-2 flex flex-wrap">
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="course__item white-bg mb-30 fix">
+                        <div class="course__thumb w-img relative fix">
+                            <a href="find-teacher.html">
+                                <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/course-2.jpg" alt="">
+                            </a>
+                            <div class="course__tag">
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title">
+                                <a href="find-teacher.html">English</a>
+                            </h3>
+                            <div class="course__teacher flex items-center">
+                                <div class="course__teacher-thumb mr-4">
+                                    <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/teacher/teacher-1.jpg" alt="">
+                                </div>
+                                <h6><a href="teacher.html">Jim Séchen</a></h6>
+                            </div>
+                        </div>
+                        <div class="course__more flex justify-between items-center">
+                            <div class="course__status">
+                                <span>Free</span>
+                            </div>
+                            <div class="course__btn">
+                                <a href="find-teacher.html" class="link-btn">
+                                    Know Details
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="course__item white-bg mb-30 fix">
+                        <div class="course__thumb w-img relative fix">
+                            <a href="find-teacher.html">
+                                <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/course-2.jpg" alt="">
+                            </a>
+                            <div class="course__tag">
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title">
+                                <a href="find-teacher.html">English</a>
+                            </h3>
+                            <div class="course__teacher flex items-center">
+                                <div class="course__teacher-thumb mr-4">
+                                    <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/teacher/teacher-1.jpg" alt="">
+                                </div>
+                                <h6><a href="teacher.html">Jim Séchen</a></h6>
+                            </div>
+                        </div>
+                        <div class="course__more flex justify-between items-center">
+                            <div class="course__status">
+                                <span>Free</span>
+                            </div>
+                            <div class="course__btn">
+                                <a href="find-teacher.html" class="link-btn">
+                                    Know Details
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="course__item white-bg mb-30 fix">
+                        <div class="course__thumb w-img relative fix">
+                            <a href="find-teacher.html">
+                                <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/course-2.jpg" alt="">
+                            </a>
+                            <div class="course__tag">
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title">
+                                <a href="find-teacher.html">English</a>
+                            </h3>
+                            <div class="course__teacher flex items-center">
+                                <div class="course__teacher-thumb mr-4">
+                                    <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/teacher/teacher-1.jpg" alt="">
+                                </div>
+                                <h6><a href="teacher.html">Jim Séchen</a></h6>
+                            </div>
+                        </div>
+                        <div class="course__more flex justify-between items-center">
+                            <div class="course__status">
+                                <span>Free</span>
+                            </div>
+                            <div class="course__btn">
+                                <a href="find-teacher.html" class="link-btn">
+                                    Know Details
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="course__item white-bg mb-30 fix">
+                        <div class="course__thumb w-img relative fix">
+                            <a href="find-teacher.html">
+                                <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/course-2.jpg" alt="">
+                            </a>
+                            <div class="course__tag">
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title">
+                                <a href="find-teacher.html">English</a>
+                            </h3>
+                            <div class="course__teacher flex items-center">
+                                <div class="course__teacher-thumb mr-4">
+                                    <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/teacher/teacher-1.jpg" alt="">
+                                </div>
+                                <h6><a href="teacher.html">Jim Séchen</a></h6>
+                            </div>
+                        </div>
+                        <div class="course__more flex justify-between items-center">
+                            <div class="course__status">
+                                <span>Free</span>
+                            </div>
+                            <div class="course__btn">
+                                <a href="find-teacher.html" class="link-btn">
+                                    Know Details
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="course__item white-bg mb-30 fix">
+                        <div class="course__thumb w-img relative fix">
+                            <a href="find-teacher.html">
+                                <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/course-2.jpg" alt="">
+                            </a>
+                            <div class="course__tag">
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title">
+                                <a href="find-teacher.html">English</a>
+                            </h3>
+                            <div class="course__teacher flex items-center">
+                                <div class="course__teacher-thumb mr-4">
+                                    <img src="https://weblearnbd.net/tphtml/educal/educal/assets/img/course/teacher/teacher-1.jpg" alt="">
+                                </div>
+                                <h6><a href="teacher.html">Jim Séchen</a></h6>
+                            </div>
+                        </div>
+                        <div class="course__more flex justify-between items-center">
+                            <div class="course__status">
+                                <span>Free</span>
+                            </div>
+                            <div class="course__btn">
+                                <a href="find-teacher.html" class="link-btn">
+                                    Know Details
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
         </div>
     </main>
-    <!-- ======= Chat UI || END ======= -->
+    <!-- ======= Find Teacher Section || END ======= -->
 
     <!-- ======= Footer Section  || START ======= -->
     <footer class="footer">
