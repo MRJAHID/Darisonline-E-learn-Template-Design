@@ -13,13 +13,7 @@
       <change beforePath="$PROJECT_DIR$/conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/conditions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/abstract/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_whatis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_whatis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/layouts/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/layouts/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_academicCentre.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_academicCentre.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_subjects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_subjects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/find-teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
@@ -143,7 +137,7 @@
       <workItem from="1674726234722" duration="599000" />
       <workItem from="1675260753378" duration="14242000" />
       <workItem from="1675340113385" duration="11238000" />
-      <workItem from="1675418113045" duration="1790000" />
+      <workItem from="1675418113045" duration="3630000" />
     </task>
     <servers />
   </component>

@@ -180,8 +180,8 @@ header_requestsIcon__1Gs7l svg {
 
 .aside {
   //background: #333;
-  color: #F0F0F0;
-  font-size: 17px;
+  //color: #F0F0F0;
+  //font-size: 17px;
   height: 100%;
   left: -110%;
   top: 56px;
@@ -308,4 +308,50 @@ header_requestsIcon__1Gs7l svg {
 /* Transition */
 .registerSelect:hover::after {
   color: #fffffc;
+}
+
+
+
+.nav,
+.nav__sub {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.nav {
+  position: relative;
+  width: auto;
+  background-color: black;
+  overflow: hidden;
+}
+
+.nav__item + .nav__item {
+  margin-top: 15px;
+}
+
+.nav__link {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__sub {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: currentColor;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease-in-out;
+  transform: translateX(100%);
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+  }
 }
