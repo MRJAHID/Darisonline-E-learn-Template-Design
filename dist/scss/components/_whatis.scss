@@ -4,7 +4,11 @@
   background-color: #fff;
 
   .whatis-content-wrapper {
-    color: $dark-text;
+    color: white;
+    padding: 12px 11px;
+    h3,p {
+      color: white;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -70,4 +74,8 @@
     padding-left: calc(50vw - 600px);
     padding-right: calc(50vw - 600px);
   }
+}
+.whatis_card{
+  background: #393dbb;
+  border-radius: 17px;
 }

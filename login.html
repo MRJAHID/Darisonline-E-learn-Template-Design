@@ -100,7 +100,14 @@
               </select>
             </label>
             <li><a class="loginBtn"  href="login.html">Login</a></li>
-            <li><a class="loginBtn"  href="signup.html">Register</a></li>
+            <li class="regBtn"><a class="loginBtn"  href="signup.html">Register</a>
+              <div class="RegOptions">
+                <a href="signup.html">Student</a>
+                <a href="teacherSignup.html">Teacher</a>
+                <a href="AcademicSignup.html">Academic Center</a>
+              </div>
+            </li>
+
             <!--         Register               -->
             <!--                        <div class="registerSelect">-->
             <!--                            <select>-->
@@ -116,6 +123,7 @@
 
     </section>
   </header>
+
   <!-- ======= Header || END ======= -->
 
   <main class="relative">
@@ -140,8 +148,8 @@
           </ul>
           <form>
             <div class="login_form-field">
-              <label for="email">Email</label>
-              <input id="email" type="email" placeholder="Email" />
+              <label for="name">Username</label>
+              <input id="name" type="name" placeholder="Username" />
             </div>
             <div class="login_form-field">
               <label for="password">Password</label>
