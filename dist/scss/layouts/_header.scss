@@ -1,7 +1,7 @@
 
 .header {
-  padding-top: 20px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 10px;
   z-index: 999;
   position: relative;
 
@@ -92,7 +92,6 @@
 }
 
 .header_iconGroup__1tKIQ {
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 100%;
@@ -147,9 +146,12 @@ header_requestsIcon__1Gs7l svg {
   white-space: nowrap;
   box-sizing: border-box;
   transition: transform 0.3s;
+  span {
+    color: #384047;
+  }
 
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 }
 

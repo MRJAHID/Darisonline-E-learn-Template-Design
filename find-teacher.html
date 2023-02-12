@@ -32,8 +32,8 @@
     <section class="header_container">
       <div class="userauth_container w-full md:w-1/4">
         <div class="userauth_container--login hidden md:block">
-          <!--  Logged Items // Profile icons  -->
-          <div class="header_iconGroup__1tKIQ hidden md:block">
+          <!--  Chat icons -- pc  -->
+          <div class="header_iconGroup__1tKIQ hidden lg:flex">
             <div class="header_iconLinks__bENRn">
               <!--      Chat    -->
               <a class="header_link__3Jd0t" href="messages.html">
@@ -45,59 +45,62 @@
               </a>
             </div>
           </div>
-
-          <!--  Logged out item // Login Button        -->
-          <!-- <a href="login.html"  class="userauth_container&#45;&#45;login hidden md:block">-->
-          <!-- <span> Login </span>-->
-          <!-- </a>-->
         </div>
-        <!--  Mobile Items  -->
-        <a href="index.html" style="margin-left: -12px;" class="logo  block md:hidden w-full">
+        <!--  Mobile Items -- Logo  -->
+        <a href="index.html" style="margin-left: -12px;" class="logo  block lg:hidden w-full">
           <img class="" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
         </a>
       </div>
-      <div class="logo_container  md:w-1/4">
-        <a href="index.html" class="logo  hidden md:block">
-          <img class="ml-auto" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+
+      <div style="    display: flex;
+    justify-content: center;
+    align-items: center;" class="logo_container  md:w-1/4">
+        <a href="index.html" class="logo  hidden lg:block">
+          <img  src="https://i.ibb.co/QMLR179/Whats-App-Image-2023-02-06-at-3-37-04-PM.jpg" alt="Logo" width="130" height="40">
         </a>
-        <a href="javascript:void(0)" onclick="toggleAside()" class="nav__item userauth_container--bar px-4 block md:hidden">
-          <span><i class="fa-solid fa-bars"></i></span>
+        <a href="index.html" class="logo  hidden lg:block">
+          <img class="ml-8" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
         </a>
+        <!--                <a href="javascript:void(0)" onclick="toggleAside()" class="nav__item userauth_container&#45;&#45;bar px-4 block md:hidden">-->
+        <!--                    <span><i class="fa-solid fa-bars"></i></span>-->
+        <!--                </a>-->
         <!--       Mobile Nav --- Start         -->
-        <div id="aside" class="aside">
-          <ul class="nav">
-            <li  onclick="location.href='index.html';"  style="cursor:pointer;" class="nav__item">
-              <a class="nav__link" href="index.html">Home</a>
-            </li>
-            <li  onclick="location.href='login.html';"  style="cursor:pointer;" class="nav__item">
-              <a class="nav__link" href="login.html">Login</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">SignUp &nbsp; <i class="fas fa-chevron-right"></i></a>
-              <ul class="nav__sub">
-                <li  onclick="location.href='signup.html';"  style="cursor:pointer;" class="nav__item">
-                  <a class="nav__link" href="signup.html">Student</a>
-                </li>
+        <!--                <div id="aside" class="aside">-->
+        <!--                    <ul class="nav">-->
+        <!--                        <li  onclick="location.href='index.html';"  style="cursor:pointer;" class="nav__item">-->
+        <!--                            <a class="nav__link" href="index.html">Home</a>-->
+        <!--                        </li>-->
+        <!--                        <li  onclick="location.href='login.html';"  style="cursor:pointer;" class="nav__item">-->
+        <!--                            <a class="nav__link" href="login.html">Login</a>-->
+        <!--                        </li>-->
+        <!--                        <li class="nav__item">-->
+        <!--                            <a class="nav__link">SignUp &nbsp; <i class="fas fa-chevron-right"></i></a>-->
+        <!--                            <ul class="nav__sub">-->
+        <!--                                <li  onclick="location.href='signup.html';"  style="cursor:pointer;" class="nav__item">-->
+        <!--                                    <a class="nav__link" href="signup.html">Student</a>-->
+        <!--                                </li>-->
 
-                <li  onclick="location.href='teacherSignup.html';"  style="cursor:pointer;" class="nav__item">
-                  <a class="nav__link" href="teacherSignup.html">Teacher</a>
-                </li>
+        <!--                                <li  onclick="location.href='teacherSignup.html';"  style="cursor:pointer;" class="nav__item">-->
+        <!--                                    <a class="nav__link" href="teacherSignup.html">Teacher</a>-->
+        <!--                                </li>-->
 
-                <li  onclick="location.href='AcademicSignup.html';"  style="cursor:pointer;" class="nav__item">
-                  <a class="nav__link" href="AcademicSignup.html">Education Center</a>
-                </li>
-              </ul>
-            </li>
-            <!--                        <li class="nav__item">-->
-            <!--                            <a class="nav__link" href="site-information.html">Site Information</a>-->
-            <!--                        </li>-->
-            <!--                        <li class="nav__item">-->
-            <!--                            <a class="nav__link" href="conditions.html">Conditions</a>-->
-            <!--                        </li>-->
-          </ul>
-        </div>
+        <!--                                <li  onclick="location.href='AcademicSignup.html';"  style="cursor:pointer;" class="nav__item">-->
+        <!--                                    <a class="nav__link" href="AcademicSignup.html">Education Center</a>-->
+        <!--                                </li>-->
+        <!--                            </ul>-->
+        <!--                        </li>-->
+        <!--                        &lt;!&ndash;                        <li class="nav__item">&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <a class="nav__link" href="site-information.html">Site Information</a>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                        </li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                        <li class="nav__item">&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <a class="nav__link" href="conditions.html">Conditions</a>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                        </li>&ndash;&gt;-->
+        <!--                    </ul>-->
+        <!--                </div>-->
         <!--       Mobile Nav --- END         -->
       </div>
+
+      <!--    Pc        -->
       <div class="nav_container md:flex md:justify-end hidden w-2/4">
         <nav>
           <ul>
@@ -108,7 +111,28 @@
               </select>
             </label>
             <li><a class="loginBtn"  href="login.html">Login</a></li>
-            <li class="regBtn"><a class="loginBtn"  href="signup.html">Register</a>
+            <li class="regBtn"><a class="loginBtn"  href="#">Register</a>
+              <div class="RegOptions">
+                <a href="signup.html">Student</a>
+                <a href="teacherSignup.html">Teacher</a>
+                <a href="AcademicSignup.html">Education Center</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--    Mobile        -->
+      <div class="nav_container md:flex md:justify-end  block md:hidden w-3/4">
+        <nav>
+          <ul>
+            <!--                        <label  style="padding: 3px 0;">-->
+            <!--                            <select class="lang-select bg-inherit">-->
+            <!--                                <option value="1">English</option>-->
+            <!--                                <option value="2">Arabic</option>-->
+            <!--                            </select>-->
+            <!--                        </label>-->
+            <li><a class="loginBtn"  href="login.html">Login</a></li>
+            <li class="regBtn"><a class="loginBtn"  href="#">Register</a>
               <div class="RegOptions">
                 <a href="signup.html">Student</a>
                 <a href="teacherSignup.html">Teacher</a>
@@ -119,8 +143,10 @@
         </nav>
       </div>
 
+
     </section>
   </header>
+
   <!-- ======= Header || END ======= -->
 
   <!-- ======= Find Teacher Section || START ======= -->
