@@ -5,34 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AcademyCenter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/scss/pages/_academyCenter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/scss/pages/_blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcademicCenters.html" beforeDir="false" afterPath="$PROJECT_DIR$/AcademicCenters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcademicSignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/AcademicSignup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResearchPaper.html" beforeDir="false" afterPath="$PROJECT_DIR$/ResearchPaper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/conditions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_find-teacher.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_find-teacher.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/pages/_subjects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/pages/_subjects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/find-teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password-change.html" beforeDir="false" afterPath="$PROJECT_DIR$/password-change.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-method.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-information.html" beforeDir="false" afterPath="$PROJECT_DIR$/site-information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subjects.html" beforeDir="false" afterPath="$PROJECT_DIR$/subjects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacherSignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacherSignup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +50,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/jahid/Documents/Projects/Darisonline-e-learn-template/node_modules/prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/294/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/298/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -143,6 +127,9 @@
       <workItem from="1675746157331" duration="4987000" />
       <workItem from="1675751399864" duration="6202000" />
       <workItem from="1676193391749" duration="224000" />
+      <workItem from="1676193975566" duration="5772000" />
+      <workItem from="1676359389146" duration="2000000" />
+      <workItem from="1676365975494" duration="4145000" />
     </task>
     <servers />
   </component>
