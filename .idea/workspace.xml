@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AcademyCenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/scss/pages/_academyCenter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/scss/pages/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/components/_siteinfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="a3c66f8b-3f3d-4b69-bb1c-09b07f638281" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +116,7 @@
       <workItem from="1676193391749" duration="224000" />
       <workItem from="1676193975566" duration="5772000" />
       <workItem from="1676359389146" duration="2000000" />
-      <workItem from="1676365975494" duration="4145000" />
+      <workItem from="1676365975494" duration="4406000" />
     </task>
     <servers />
   </component>
