@@ -1,973 +1,1057 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Find Tutor | Darisonline</title>
 
     <!-- Rubik Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
     />
     <!-- Tailwind Css Pack -->
-    <link href="./dist/css/tailwind/tailwind.css" rel="stylesheet" />
+    <link href="./dist/css/tailwind/tailwind.css" rel="stylesheet"/>
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!-- Main Css -->
-    <link rel="stylesheet" href="./dist/css/index.css" />
-  </head>
+    <link rel="stylesheet" href="./dist/css/index.css"/>
+</head>
 <body class="antialiased">
 <main>
-  <!-- ======= Header || START ======= -->
-  <header class="header container px-2 mx-auto">
-    <section class="header_container">
-      <div class="userauth_container w-full md:w-1/4">
-        <div class="userauth_container--login hidden md:block">
-          <!--  Chat icons -- pc  -->
-          <div class="header_iconGroup__1tKIQ hidden lg:flex">
-            <div class="header_iconLinks__bENRn">
-              <!--      Chat    -->
-              <a class="header_link__3Jd0t" href="messages.html">
-                <div class="">
+    <!-- ======= Header || START ======= -->
+    <header class="header container px-2 mx-auto">
+        <section class="header_container">
+            <div class="userauth_container w-full md:w-1/4">
+                <div class="userauth_container--login hidden md:block">
+                    <!--  Chat icons -- pc  -->
+                    <div class="header_iconGroup__1tKIQ hidden lg:flex">
+                        <div class="header_iconLinks__bENRn">
+                            <!--      Chat    -->
+                            <a class="header_link__3Jd0t" href="messages.html">
+                                <div class="">
 
-                  <?xml version="1.0" encoding="utf-8"?>
-                  <svg width="42px" height="42px" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M114.8 561.9l-0.8 92.6 151.1-92.6h291.3c39.4 0 71.3-32.6 71.3-72.9V206c0-40.3-31.9-72.9-71.3-72.9H114.8c-39.4 0-71.3 32.6-71.3 72.9v283c0 40.3 31.9 72.9 71.3 72.9z" fill="#9ED5E4" /><path d="M114 669.1c-2.5 0-4.9-0.6-7.1-1.9-4.6-2.6-7.4-7.5-7.4-12.7l0.7-79.3C59.8 568.1 29 532.2 29 489V206c0-48.2 38.5-87.4 85.8-87.4h441.5c47.3 0 85.8 39.2 85.8 87.4v283c0 48.2-38.5 87.4-85.8 87.4H269.2l-147.6 90.5c-2.4 1.4-5 2.2-7.6 2.2z m0.8-521.5C83.5 147.6 58 173.8 58 206v283c0 32.2 25.5 58.4 56.9 58.4 3.9 0 7.6 1.5 10.3 4.3 2.7 2.7 4.2 6.5 4.2 10.3l-0.6 66.5 128.8-79c2.3-1.4 4.9-2.1 7.6-2.1h291.3c31.4 0 56.9-26.2 56.9-58.4V206c0-32.2-25.5-58.4-56.9-58.4H114.8z" fill="#154B8B" /><path d="M890.1 773.1l1.1 117.4-195.6-117.4H318.4c-51 0-92.4-41.4-92.4-92.4V322.1c0-51 41.4-92.4 92.4-92.4h571.7c51 0 92.4 41.4 92.4 92.4v358.7c0 50.9-41.3 92.3-92.4 92.3z" fill="#FAFCFC" /><path d="M891.2 905c-2.6 0-5.2-0.7-7.5-2.1L691.6 787.6H318.4c-58.9 0-106.9-47.9-106.9-106.9V322.1c0-58.9 47.9-106.9 106.9-106.9h571.7c58.9 0 106.9 47.9 106.9 106.9v358.7c0 54-40.2 98.7-92.2 105.9l1 103.8c0 5.2-2.7 10.1-7.3 12.7-2.3 1.1-4.8 1.8-7.3 1.8zM318.4 244.2c-42.9 0-77.9 34.9-77.9 77.9v358.7c0 42.9 34.9 77.9 77.9 77.9h377.2c2.6 0 5.2 0.7 7.5 2.1l173.5 104.1-0.8-91.5c0-3.9 1.5-7.6 4.2-10.3 2.7-2.7 6.4-4.3 10.3-4.3 42.9 0 77.9-34.9 77.9-77.9V322.1c0-42.9-34.9-77.9-77.9-77.9H318.4z" fill="#154B8B" /><path d="M376 499.8a47.3 44.8 0 1 0 94.6 0 47.3 44.8 0 1 0-94.6 0Z" fill="#144884" /><path d="M557 499.8a47.3 44.8 0 1 0 94.6 0 47.3 44.8 0 1 0-94.6 0Z" fill="#144884" /><path d="M737.9 499.8a47.3 44.8 0 1 0 94.6 0 47.3 44.8 0 1 0-94.6 0Z" fill="#144884" /></svg>
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg width="42px" height="42px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M114.8 561.9l-0.8 92.6 151.1-92.6h291.3c39.4 0 71.3-32.6 71.3-72.9V206c0-40.3-31.9-72.9-71.3-72.9H114.8c-39.4 0-71.3 32.6-71.3 72.9v283c0 40.3 31.9 72.9 71.3 72.9z"
+                                              fill="#9ED5E4"/>
+                                        <path d="M114 669.1c-2.5 0-4.9-0.6-7.1-1.9-4.6-2.6-7.4-7.5-7.4-12.7l0.7-79.3C59.8 568.1 29 532.2 29 489V206c0-48.2 38.5-87.4 85.8-87.4h441.5c47.3 0 85.8 39.2 85.8 87.4v283c0 48.2-38.5 87.4-85.8 87.4H269.2l-147.6 90.5c-2.4 1.4-5 2.2-7.6 2.2z m0.8-521.5C83.5 147.6 58 173.8 58 206v283c0 32.2 25.5 58.4 56.9 58.4 3.9 0 7.6 1.5 10.3 4.3 2.7 2.7 4.2 6.5 4.2 10.3l-0.6 66.5 128.8-79c2.3-1.4 4.9-2.1 7.6-2.1h291.3c31.4 0 56.9-26.2 56.9-58.4V206c0-32.2-25.5-58.4-56.9-58.4H114.8z"
+                                              fill="#154B8B"/>
+                                        <path d="M890.1 773.1l1.1 117.4-195.6-117.4H318.4c-51 0-92.4-41.4-92.4-92.4V322.1c0-51 41.4-92.4 92.4-92.4h571.7c51 0 92.4 41.4 92.4 92.4v358.7c0 50.9-41.3 92.3-92.4 92.3z"
+                                              fill="#FAFCFC"/>
+                                        <path d="M891.2 905c-2.6 0-5.2-0.7-7.5-2.1L691.6 787.6H318.4c-58.9 0-106.9-47.9-106.9-106.9V322.1c0-58.9 47.9-106.9 106.9-106.9h571.7c58.9 0 106.9 47.9 106.9 106.9v358.7c0 54-40.2 98.7-92.2 105.9l1 103.8c0 5.2-2.7 10.1-7.3 12.7-2.3 1.1-4.8 1.8-7.3 1.8zM318.4 244.2c-42.9 0-77.9 34.9-77.9 77.9v358.7c0 42.9 34.9 77.9 77.9 77.9h377.2c2.6 0 5.2 0.7 7.5 2.1l173.5 104.1-0.8-91.5c0-3.9 1.5-7.6 4.2-10.3 2.7-2.7 6.4-4.3 10.3-4.3 42.9 0 77.9-34.9 77.9-77.9V322.1c0-42.9-34.9-77.9-77.9-77.9H318.4z"
+                                              fill="#154B8B"/>
+                                        <path d="M376 499.8a47.3 44.8 0 1 0 94.6 0 47.3 44.8 0 1 0-94.6 0Z"
+                                              fill="#144884"/>
+                                        <path d="M557 499.8a47.3 44.8 0 1 0 94.6 0 47.3 44.8 0 1 0-94.6 0Z"
+                                              fill="#144884"/>
+                                        <path d="M737.9 499.8a47.3 44.8 0 1 0 94.6 0 47.3 44.8 0 1 0-94.6 0Z"
+                                              fill="#144884"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </a>
+                <!--  Mobile Items -- Logo  -->
+                <a href="index.html" style="margin-left: -12px;" class="logo  block lg:hidden w-full">
+                    <img class="" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+                </a>
             </div>
-          </div>
-        </div>
-        <!--  Mobile Items -- Logo  -->
-        <a href="index.html" style="margin-left: -12px;" class="logo  block lg:hidden w-full">
-          <img class="" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
-        </a>
-      </div>
 
-      <div style="    display: flex;
+            <div style="    display: flex;
     justify-content: center;
     align-items: center;" class="logo_container  md:w-1/4">
-        <a href="index.html" class="logo  hidden lg:block">
-          <img  src="https://i.ibb.co/QMLR179/Whats-App-Image-2023-02-06-at-3-37-04-PM.jpg" alt="Logo" width="130" height="40">
-        </a>
-        <a href="index.html" class="logo  hidden lg:block">
-          <img class="ml-8" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
-        </a>
-        <!--                <a href="javascript:void(0)" onclick="toggleAside()" class="nav__item userauth_container&#45;&#45;bar px-4 block md:hidden">-->
-        <!--                    <span><i class="fa-solid fa-bars"></i></span>-->
-        <!--                </a>-->
-        <!--       Mobile Nav --- Start         -->
-        <!--                <div id="aside" class="aside">-->
-        <!--                    <ul class="nav">-->
-        <!--                        <li  onclick="location.href='index.html';"  style="cursor:pointer;" class="nav__item">-->
-        <!--                            <a class="nav__link" href="index.html">Home</a>-->
-        <!--                        </li>-->
-        <!--                        <li  onclick="location.href='login.html';"  style="cursor:pointer;" class="nav__item">-->
-        <!--                            <a class="nav__link" href="login.html">Login</a>-->
-        <!--                        </li>-->
-        <!--                        <li class="nav__item">-->
-        <!--                            <a class="nav__link">SignUp &nbsp; <i class="fas fa-chevron-right"></i></a>-->
-        <!--                            <ul class="nav__sub">-->
-        <!--                                <li  onclick="location.href='signup.html';"  style="cursor:pointer;" class="nav__item">-->
-        <!--                                    <a class="nav__link" href="signup.html">Student</a>-->
-        <!--                                </li>-->
+                <a href="index.html" class="logo  hidden lg:block">
+                    <img src="https://i.ibb.co/QMLR179/Whats-App-Image-2023-02-06-at-3-37-04-PM.jpg" alt="Logo"
+                         width="130" height="40">
+                </a>
+                <a href="index.html" class="logo  hidden lg:block">
+                    <img class="ml-8" src="dist/images/logo1.svg" alt="Logo" width="130" height="40">
+                </a>
+                <!--                <a href="javascript:void(0)" onclick="toggleAside()" class="nav__item userauth_container&#45;&#45;bar px-4 block md:hidden">-->
+                <!--                    <span><i class="fa-solid fa-bars"></i></span>-->
+                <!--                </a>-->
+                <!--       Mobile Nav --- Start         -->
+                <!--                <div id="aside" class="aside">-->
+                <!--                    <ul class="nav">-->
+                <!--                        <li  onclick="location.href='index.html';"  style="cursor:pointer;" class="nav__item">-->
+                <!--                            <a class="nav__link" href="index.html">Home</a>-->
+                <!--                        </li>-->
+                <!--                        <li  onclick="location.href='login.html';"  style="cursor:pointer;" class="nav__item">-->
+                <!--                            <a class="nav__link" href="login.html">Login</a>-->
+                <!--                        </li>-->
+                <!--                        <li class="nav__item">-->
+                <!--                            <a class="nav__link">SignUp &nbsp; <i class="fas fa-chevron-right"></i></a>-->
+                <!--                            <ul class="nav__sub">-->
+                <!--                                <li  onclick="location.href='signup.html';"  style="cursor:pointer;" class="nav__item">-->
+                <!--                                    <a class="nav__link" href="signup.html">Student</a>-->
+                <!--                                </li>-->
 
-        <!--                                <li  onclick="location.href='teacherSignup.html';"  style="cursor:pointer;" class="nav__item">-->
-        <!--                                    <a class="nav__link" href="teacherSignup.html">Teacher</a>-->
-        <!--                                </li>-->
+                <!--                                <li  onclick="location.href='teacherSignup.html';"  style="cursor:pointer;" class="nav__item">-->
+                <!--                                    <a class="nav__link" href="teacherSignup.html">Teacher</a>-->
+                <!--                                </li>-->
 
-        <!--                                <li  onclick="location.href='AcademicSignup.html';"  style="cursor:pointer;" class="nav__item">-->
-        <!--                                    <a class="nav__link" href="AcademicSignup.html">Education Center</a>-->
-        <!--                                </li>-->
-        <!--                            </ul>-->
-        <!--                        </li>-->
-        <!--                        &lt;!&ndash;                        <li class="nav__item">&ndash;&gt;-->
-        <!--                        &lt;!&ndash;                            <a class="nav__link" href="site-information.html">Site Information</a>&ndash;&gt;-->
-        <!--                        &lt;!&ndash;                        </li>&ndash;&gt;-->
-        <!--                        &lt;!&ndash;                        <li class="nav__item">&ndash;&gt;-->
-        <!--                        &lt;!&ndash;                            <a class="nav__link" href="conditions.html">Conditions</a>&ndash;&gt;-->
-        <!--                        &lt;!&ndash;                        </li>&ndash;&gt;-->
-        <!--                    </ul>-->
-        <!--                </div>-->
-        <!--       Mobile Nav --- END         -->
-      </div>
+                <!--                                <li  onclick="location.href='AcademicSignup.html';"  style="cursor:pointer;" class="nav__item">-->
+                <!--                                    <a class="nav__link" href="AcademicSignup.html">Education Center</a>-->
+                <!--                                </li>-->
+                <!--                            </ul>-->
+                <!--                        </li>-->
+                <!--                        &lt;!&ndash;                        <li class="nav__item">&ndash;&gt;-->
+                <!--                        &lt;!&ndash;                            <a class="nav__link" href="site-information.html">Site Information</a>&ndash;&gt;-->
+                <!--                        &lt;!&ndash;                        </li>&ndash;&gt;-->
+                <!--                        &lt;!&ndash;                        <li class="nav__item">&ndash;&gt;-->
+                <!--                        &lt;!&ndash;                            <a class="nav__link" href="conditions.html">Conditions</a>&ndash;&gt;-->
+                <!--                        &lt;!&ndash;                        </li>&ndash;&gt;-->
+                <!--                    </ul>-->
+                <!--                </div>-->
+                <!--       Mobile Nav --- END         -->
+            </div>
 
-      <!--    Pc        -->
-      <div class="nav_container md:flex md:justify-end hidden w-2/4">
-        <nav>
-          <ul>
-            <label  style="padding: 3px 0;">
-              <select class="lang-select bg-inherit">
-                <option value="1">English</option>
-                <option value="2">Arabic</option>
-              </select>
-            </label>
-            <li><a class="loginBtn"  href="login.html">Login</a></li>
-            <li class="regBtn"><a class="loginBtn"  href="#">Register</a>
-              <div class="RegOptions">
-                <a href="signup.html">Student</a>
-                <a href="teacherSignup.html">Teacher</a>
-                <a href="AcademicSignup.html">Education Center</a>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!--    Mobile        -->
-      <div class="nav_container md:flex md:justify-end  block md:hidden w-3/4">
-        <nav>
-          <ul>
-            <!--                        <label  style="padding: 3px 0;">-->
-            <!--                            <select class="lang-select bg-inherit">-->
-            <!--                                <option value="1">English</option>-->
-            <!--                                <option value="2">Arabic</option>-->
-            <!--                            </select>-->
-            <!--                        </label>-->
-            <li><a class="loginBtn"  href="login.html">Login</a></li>
-            <li class="regBtn"><a class="loginBtn"  href="#">Register</a>
-              <div class="RegOptions">
-                <a href="signup.html">Student</a>
-                <a href="teacherSignup.html">Teacher</a>
-                <a href="AcademicSignup.html">Education Center</a>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
+            <!--    Pc        -->
+            <div class="nav_container md:flex md:justify-end hidden w-2/4">
+                <nav>
+                    <ul>
+                        <label style="padding: 3px 0;">
+                            <select class="lang-select bg-inherit">
+                                <option value="1">English</option>
+                                <option value="2">Arabic</option>
+                            </select>
+                        </label>
+                        <li><a class="loginBtn" href="login.html">Login</a></li>
+                        <li class="regBtn"><a class="loginBtn" href="#">Register</a>
+                            <div class="RegOptions">
+                                <a href="signup.html">Student</a>
+                                <a href="teacherSignup.html">Teacher</a>
+                                <a href="AcademicSignup.html">Education Center</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--    Mobile        -->
+            <div class="nav_container md:flex md:justify-end  block md:hidden w-3/4">
+                <nav>
+                    <ul>
+                        <!--                        <label  style="padding: 3px 0;">-->
+                        <!--                            <select class="lang-select bg-inherit">-->
+                        <!--                                <option value="1">English</option>-->
+                        <!--                                <option value="2">Arabic</option>-->
+                        <!--                            </select>-->
+                        <!--                        </label>-->
+                        <li><a class="loginBtn" href="login.html">Login</a></li>
+                        <li class="regBtn"><a class="loginBtn" href="#">Register</a>
+                            <div class="RegOptions">
+                                <a href="signup.html">Student</a>
+                                <a href="teacherSignup.html">Teacher</a>
+                                <a href="AcademicSignup.html">Education Center</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
 
-    </section>
-  </header>
+        </section>
+    </header>
 
-  <!-- ======= Header || END ======= -->
+    <!-- ======= Header || END ======= -->
 
-  <!-- ======= Find Teacher Section || START ======= -->
-  <main class="relative">
-    <div class="find-teacher mx-auto">
-      <header class="find-teacher_header relative">
-        <div class="find-teacher_header-text_wrapper pl-1 md:pl-8">
-          <div class="find-teacher_header-text">
-            <h1 class="">Online <span
-              class="">Teachers</span>  for private lessons</h1>
-            <p>Looking for an online English tutor? Preply is the leading
-              online language learning platform worldwide. You can choose from 11982 English teachers with an average
-              rating of 4.9 out of 5 stars given by 100485 customers.
-            </p>
-          </div>
+    <!-- ======= Find Teacher Section || START ======= -->
+    <main class="relative">
+        <div class="find-teacher mx-auto">
+            <header class="find-teacher_header relative">
+                <div class="find-teacher_header-text_wrapper pl-1 md:pl-8">
+                    <div class="find-teacher_header-text">
+                        <h1 class="">Online <span
+                                class="">Teachers</span> for private lessons</h1>
+                        <p>Looking for an online English tutor? Preply is the leading
+                            online language learning platform worldwide. You can choose from 11982 English teachers with
+                            an average
+                            rating of 4.9 out of 5 stars given by 100485 customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="find-teacher_header_search-content">
+                    <div class="find-teacher_header_search">
+                        <div class="find-teacher_header_search-one">
+                            <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
+                                <span class="find-teacher_header_search-one-title">I want to learn</span>
+                                <div class="find-teacher_header_search-one-contentwrap">
+                                    <div class="find-teacher_header_search-one-content">
+                                        <label class="">
+                                            <input type="text" class="" value="English" placeholder="Select subject"
+                                                   autocomplete="off">
+                                        </label>
+                                        <button class="">
+                                            <svg height="12" viewBox="0 0 12 12" width="12"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 class="styles_ClearIcon__yL4QD">
+                                                <path
+                                                        d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-teacher_header_search-one">
+                            <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
+                                <span class="find-teacher_header_search-one-title">Price per hour</span>
+                                <div class="find-teacher_header_search-one-contentwrap">
+                                    <div class="find-teacher_header_search-one-content">
+                                        <label class="">
+                                            <input type="text" class="" value="$100" placeholder="Select subject"
+                                                   autocomplete="off">
+                                        </label>
+                                        <button class="">
+                                            <svg height="12" viewBox="0 0 12 12" width="12"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 class="styles_ClearIcon__yL4QD">
+                                                <path
+                                                        d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-teacher_header_search-one">
+                            <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
+                                <span class="find-teacher_header_search-one-title">Country of birth</span>
+                                <div class="find-teacher_header_search-one-contentwrap">
+                                    <div class="find-teacher_header_search-one-content">
+                                        <label class="">
+                                            <input type="text" class="" value="Australia" placeholder="Select subject"
+                                                   autocomplete="off">
+                                        </label>
+                                        <button class="">
+                                            <svg height="12" viewBox="0 0 12 12" width="12"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 class="styles_ClearIcon__yL4QD">
+                                                <path
+                                                        d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-teacher_header_search-one">
+                            <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
+                                <span class="find-teacher_header_search-one-title">I am available</span>
+                                <div class="find-teacher_header_search-one-contentwrap">
+                                    <div class="find-teacher_header_search-one-content">
+                                        <label class="">
+                                            <input type="text" class="" value="Free" placeholder="Select subject"
+                                                   autocomplete="off">
+                                        </label>
+                                        <button class="">
+                                            <svg height="12" viewBox="0 0 12 12" width="12"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 class="styles_ClearIcon__yL4QD">
+                                                <path
+                                                        d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="find-teacher_header_filter">
+                        <div class="find-teacher_header_filter-left mb-3 md:mb-0">
+                            <div class="find-teacher_header_filter-left-item">
+                                <span class="">Specialties</span>
+                                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
+                                     class="">
+                                    <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
+                                </svg>
+                            </div>
+                            <div class="find-teacher_header_filter-left-item">
+                                <span>Also speaks</span>
+                                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
+                                     class="">
+                                    <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
+                                </svg>
+                            </div>
+                            <div class="find-teacher_header_filter-left-item">
+                                <span>Native speaker</span>
+                                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
+                                     class="">
+                                    <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="find-teacher_header_filter-right">
+                            <div class="find-teacher_header_filter-left-item">
+                                <span>Sort by:<span>Relevance</span></span>
+                                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
+                                     class="">
+                                    <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
+                                </svg>
+                            </div>
+                            <div class=" find-teacher_header_filter-right-search">
+                                <div class="find-teacher_header_filter-right-search-cnt">
+                                    <label>
+                                        <input type="text" class="" placeholder="Search by name or keyword" value=""/>
+                                    </label>
+                                    <div class="find-teacher_header_filter-right-search-icon">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" width="15" height="16"
+                                             fill="none" viewBox="0 0 15 16">
+                                            <path fill="#3BB2BD" fill-rule="evenodd"
+                                                  d="M6.5.642a6.5 6.5 0 0 1 5.249 10.335l2.958 2.958-1.414 1.415-2.958-2.959A6.5 6.5 0 1 1 6.5.642Zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="find-teacher-main">
+                <div class="find-teacher-total-avl-title">
+                    <h2>12,023<!-- --> English teachers available</h2>
+                </div>
+                <div class="find-teacher-wrap flex flex-col md:flex-row flex-wrap justify-between">
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <a href="messages.html"
+                                       class="find-teacher-card__button button--blue js-message-btn">Message</a>
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <button id="btn-show" class="btn-modalshow find-teacher-card__button button--blue js-message-btn">Message</button>
+
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+
+                                <!--  Message Modal  -->
+                                <dialog id="demo-modal" class="dialog">
+                                    <div class="dialog-body">
+                                        <div class="dialog-content message_modal_box">
+                                            <div class="container">
+                                                <form id="contact" action="" method="post">
+                                                    <h3>Quick Contact With Teacher</h3>
+                                                    <h4>Contact with teacher today, and get reply with in 24 hours!</h4>
+                                                    <fieldset>
+                                                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                                                    </fieldset>
+                                                    <fieldset>
+                                                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                                                    </fieldset>
+                                                    <fieldset>
+                                                        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                                                    </fieldset>
+                                                    <fieldset>
+                                                        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                                                    </fieldset>
+                                                    <fieldset>
+                                                        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                                                    </fieldset>
+                                                    <fieldset>
+                                                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn-close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 64 64">
+                                            <path d="m16 13a1 1 0 0 0-3 3l16 16-16 16a1 1 0 0 0 3 3l16-16 16 16a1 1 0 0 0 3-3l-16-16 16-16a1 1 0 0 0-3-3l-16 16z" fill="currentColor" />
+                                        </svg>
+                                    </button>
+                                </dialog>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <a href="messages.html"
+                                       class="find-teacher-card__button button--blue js-message-btn">Message</a>
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <a href="messages.html"
+                                       class="find-teacher-card__button button--blue js-message-btn">Message</a>
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <a href="messages.html"
+                                       class="find-teacher-card__button button--blue js-message-btn">Message</a>
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <a href="messages.html"
+                                       class="find-teacher-card__button button--blue js-message-btn">Message</a>
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-teacher-card-wrap w-full md:w-1/2">
+                        <div class="find-teacher-card js-profile-card">
+                            <div class="find-teacher-card__img">
+                                <img
+                                        src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                        alt="profile card">
+                            </div>
+
+                            <div class="find-teacher-card__cnt">
+                                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
+                                    <img src="./dist/images/bangladesh.png" alt="">
+                                    <div class="js-profile-cnt">
+                                        <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                             viewBox="0 0 16 16">
+                                            <path fill="#52667D" fill-rule="evenodd"
+                                                  d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                        <ul class="">
+                                            <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                                <div class="flex justify-center mb-2">
+                                    <i class="fa-light fa-user"></i>
+                                    <div class="flex mb-2 font-medium text-gray-600">
+                                        <div class="">
+                                            <span>21</span> active students
+                                        </div>
+                                        <span class="">. &nbsp;</span>
+                                        <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <ul class="flex justify-center mb-2 font-normal text-gray-500">
+                                        <span class="">Speaks: &nbsp;</span>
+                                        <li aria-hidden="true">English
+                                            <span class="sublang">Native</span>
+                                        </li>
+                                        <li aria-hidden="true"> &nbsp; Spanish
+                                            <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="">
+                                    <p class="" style="line-height: 1.7;">
+                                        <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
+                                        <br>
+                                        <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
+                  </span>
+                                    </p>
+                                </div>
+
+                                <div class="find-teacher-card-inf">
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">$111</div>
+                                        <div class="find-teacher-card-inf__txt">Per Hour</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">56</div>
+                                        <div class="find-teacher-card-inf__txt">Reviews</div>
+                                    </div>
+
+                                    <div class="find-teacher-card-inf__item">
+                                        <div class="find-teacher-card-inf__title">200</div>
+                                        <div class="find-teacher-card-inf__txt">Lessons</div>
+                                    </div>
+                                </div>
+
+                                <div class="find-teacher-card-ctr">
+                                    <a href="messages.html"
+                                       class="find-teacher-card__button button--blue js-message-btn">Message</a>
+                                    <a href="checkout.html" class="find-teacher-card__button button--orange">Book
+                                        Lesson</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </main>
         </div>
-        <div class="find-teacher_header_search-content">
-          <div class="find-teacher_header_search">
-            <div class="find-teacher_header_search-one">
-              <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
-                <span class="find-teacher_header_search-one-title">I want to learn</span>
-                <div class="find-teacher_header_search-one-contentwrap">
-                  <div class="find-teacher_header_search-one-content">
-                    <label class="">
-                      <input type="text" class="" value="English" placeholder="Select subject" autocomplete="off">
-                    </label>
-                    <button class="">
-                      <svg height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"
-                           class="styles_ClearIcon__yL4QD">
-                        <path
-                          d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
-                      </svg>
-                    </button>
-                  </div>
+    </main>
+    <!-- ======= Find Teacher Section || END ======= -->
+
+    <!-- ======= Footer Section  || START ======= -->
+    <footer class="footer">
+        <div class="footer_container container px-4 md:px-16 pt-12 pb-6">
+            <div class="footer-content flex flex-col md:flex-row">
+                <div style="margin: auto;" class="footer-info px-1 md:px-6 w-full md:w-1/3">
+                    <a href="index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="dist/images/logo.svg" alt="Logo" width="200" height="80">
+                    </a>
+                    <!--                    <p class="pt-6 pb-2">By speaking someone's language you learn about them, their culture and their-->
+                    <!--                        ideas.-->
+                    <!--                        Breaking down the language barrier bridges cultural differences, fosters a world of inclusion-->
+                    <!--                        and is a first-->
+                    <!--                        step in helping to address humanity’s challenges. For us, language knows no boundaries.</p>-->
+                    <!--                    <p class="mt-2 mb-2">Official Darisonline agent</p>-->
+                    <!--                    <img loading="lazy" width="100%" height="100%"-->
+                    <!--                         src="https://www.cambridgeenglish.org/Images/Cambridge_Press_Assessment_Landscape_Logo_RGB-280x55.png"-->
+                    <!--                         class="logo"> -->
                 </div>
-              </div>
+
+                <div class="footer__directions px-1 md:px-4 w-full md:w-2/3">
+                    <nav class="footer--nav">
+                        <ul class=" flex-wrap flex-row flex justify-between footer--nav-content">
+                            <li>
+                                <a title="Company" href="#" class="footer--nav-link">Company</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="find-teacher.html" class="">Find Tutor</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="payment-method.html" class="">Payment</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="site-information.html" class="">Site
+                                            Information</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="conditions.html" class="">Conditions</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a title="Language" href="#" class="footer--nav-link">Language</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">English</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Arabic</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a title="How it works" href="#" class="footer--nav-link">How it works</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Our Platform</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Resources</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a title="Support" href="#" class="footer--nav-link">Support</a>
+                                <ul class="footer--nav-content--nested" role="menu">
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a title="Blog" target="_blank" href="#" class="">Content Creators</a>
+                                    </li>
+                                    <li class="footer-btn hidden md:block">
+                                        <a title="Become a teacher" href="login.html" class="dropdown-item">Become a
+                                            teacher</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="width: 100%;" class="footer-btn block w-full md:hidden">
+                                <a title="Become a teacher" href="login.html" class="dropdown-item">Become a teacher</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="find-teacher_header_search-one">
-              <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
-                <span class="find-teacher_header_search-one-title">Price per hour</span>
-                <div class="find-teacher_header_search-one-contentwrap">
-                  <div class="find-teacher_header_search-one-content">
-                    <label class="">
-                      <input type="text" class="" value="$100" placeholder="Select subject" autocomplete="off">
-                    </label>
-                    <button class="">
-                      <svg height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"
-                           class="styles_ClearIcon__yL4QD">
-                        <path
-                          d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="find-teacher_header_search-one">
-              <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
-                <span class="find-teacher_header_search-one-title">Country of birth</span>
-                <div class="find-teacher_header_search-one-contentwrap">
-                  <div class="find-teacher_header_search-one-content">
-                    <label class="">
-                      <input type="text" class="" value="Australia" placeholder="Select subject" autocomplete="off">
-                    </label>
-                    <button class="">
-                      <svg height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"
-                           class="styles_ClearIcon__yL4QD">
-                        <path
-                          d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="find-teacher_header_search-one">
-              <div class="find-teacher_header_search-one--wrapper" role="searchbox" tabindex="0">
-                <span class="find-teacher_header_search-one-title">I am available</span>
-                <div class="find-teacher_header_search-one-contentwrap">
-                  <div class="find-teacher_header_search-one-content">
-                    <label class="">
-                      <input type="text" class="" value="Free" placeholder="Select subject" autocomplete="off">
-                    </label>
-                    <button class="">
-                      <svg height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"
-                           class="styles_ClearIcon__yL4QD">
-                        <path
-                          d="M6 4.586L10.293.293l1.414 1.414L7.414 6l4.293 4.293-1.414 1.414L6 7.414l-4.293 4.293-1.414-1.414L4.586 6 .293 1.707 1.707.293z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="find-teacher_header_filter">
-            <div class="find-teacher_header_filter-left mb-3 md:mb-0">
-              <div class="find-teacher_header_filter-left-item">
-                <span class="">Specialties</span>
-                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
-                     class="">
-                  <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
-                </svg>
-              </div>
-              <div class="find-teacher_header_filter-left-item">
-                <span>Also speaks</span>
-                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
-                     class="">
-                  <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
-                </svg>
-              </div>
-              <div class="find-teacher_header_filter-left-item">
-                <span>Native speaker</span>
-                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
-                     class="">
-                  <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
-                </svg>
-              </div>
-            </div>
-
-            <div class="find-teacher_header_filter-right">
-              <div class="find-teacher_header_filter-left-item">
-                <span>Sort by:<span>Relevance</span></span>
-                <svg height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg"
-                     class="">
-                  <path d="M6 4.586L10.293.293l1.414 1.414L6 7.414.293 1.707 1.707.293z"></path>
-                </svg>
-              </div>
-              <div class=" find-teacher_header_filter-right-search">
-                <div class="find-teacher_header_filter-right-search-cnt">
-                  <label>
-                    <input type="text" class="" placeholder="Search by name or keyword" value=""/>
-                  </label>
-                  <div class="find-teacher_header_filter-right-search-icon">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="15" height="16"
-                         fill="none" viewBox="0 0 15 16">
-                      <path fill="#3BB2BD" fill-rule="evenodd"
-                            d="M6.5.642a6.5 6.5 0 0 1 5.249 10.335l2.958 2.958-1.414 1.415-2.958-2.959A6.5 6.5 0 1 1 6.5.642Zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <main class="find-teacher-main">
-        <div class="find-teacher-total-avl-title">
-          <h2>12,023<!-- --> English teachers available</h2>
-        </div>
-        <div class="find-teacher-wrap flex flex-col md:flex-row flex-wrap justify-between">
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="find-teacher-card-wrap w-full md:w-1/2">
-            <div class="find-teacher-card js-profile-card">
-              <div class="find-teacher-card__img">
-                <img
-                  src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                  alt="profile card">
-              </div>
-
-              <div class="find-teacher-card__cnt">
-                <a href="teacher.html" class="find-teacher-card__name">Jahid Bhuiyan
-                  <img src="./dist/images/bangladesh.png" alt="">
-                  <div class="js-profile-cnt">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                      <path fill="#52667D" fill-rule="evenodd"
-                            d="M7.636 1.344a.75.75 0 0 1 .728 0l5.987 3.326a.75.75 0 0 1 .399.663v4a.75.75 0 0 1-1.5 0V6.608L8.364 9.322a.75.75 0 0 1-.728 0l-6-3.333a.75.75 0 0 1 0-1.311l6-3.334Zm-4.092 3.99L8 7.808l4.456-2.476L8 2.858 3.544 5.333ZM5.417 10a.75.75 0 0 0-1.5 0v.667a4.083 4.083 0 1 0 8.166 0V10a.75.75 0 0 0-1.5 0v.667a2.583 2.583 0 1 1-5.166 0V10Z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <ul class="">
-                      <li class="styles_SubjectItem__5IipX" role="menuitem">English</li>
-                    </ul>
-                  </div>
-                </a>
-
-                <div class="flex justify-center mb-2">
-                  <i class="fa-light fa-user"></i>
-                  <div class="flex mb-2 font-medium text-gray-600">
-                    <div class="">
-                      <span>21</span> active students
-                    </div>
-                    <span class="">. &nbsp;</span>
-                    <span class="" role="button" tabindex="0" aria-hidden="true"> 188 lessons</span>
-                  </div>
-                </div>
-
-                <div class="mb-4">
-                  <ul class="flex justify-center mb-2 font-normal text-gray-500">
-                    <span class="">Speaks: &nbsp;</span>
-                    <li aria-hidden="true">English
-                      <span class="sublang">Native</span>
-                    </li>
-                    <li aria-hidden="true"> &nbsp; Spanish
-                      <span class="sublang  hidden md:inline-block">Pre-Intermediate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="">
-                  <p class="" style="line-height: 1.7;">
-                    <span class="font-medium text-sm mb-1 text-gray-600">Certified CELTA teacher with 3 years of experience</span>&nbsp;
-                    <br>
-                    <span class="font-normal text-sm text-gray-500">Hello! I'm a 32 year old English teacher from Scotland. I give friendly lessons.
-                  </span>
-                  </p>
-                </div>
-
-                <div class="find-teacher-card-inf">
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">$111</div>
-                    <div class="find-teacher-card-inf__txt">Per Hour</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">56</div>
-                    <div class="find-teacher-card-inf__txt">Reviews</div>
-                  </div>
-
-                  <div class="find-teacher-card-inf__item">
-                    <div class="find-teacher-card-inf__title">200</div>
-                    <div class="find-teacher-card-inf__txt">Lessons</div>
-                  </div>
-                </div>
-
-                <div class="find-teacher-card-ctr">
-                  <a href="messages.html" class="find-teacher-card__button button--blue js-message-btn">Message</a>
-                  <a href="checkout.html" class="find-teacher-card__button button--orange">Book Lesson</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-      </main>
-    </div>
-  </main>
-  <!-- ======= Find Teacher Section || END ======= -->
-
-  <!-- ======= Footer Section  || START ======= -->
-  <footer class="footer">
-    <div class="footer_container container px-4 md:px-16 pt-12 pb-6">
-      <div class="footer-content flex flex-col md:flex-row">
-        <div style="margin: auto;" class="footer-info px-1 md:px-6 w-full md:w-1/3">
-          <a href="index.html" target="_blank" rel="noopener noreferrer">
-            <img src="dist/images/logo.svg" alt="Logo" width="200" height="80">
-          </a>
-          <!--                    <p class="pt-6 pb-2">By speaking someone's language you learn about them, their culture and their-->
-          <!--                        ideas.-->
-          <!--                        Breaking down the language barrier bridges cultural differences, fosters a world of inclusion-->
-          <!--                        and is a first-->
-          <!--                        step in helping to address humanity’s challenges. For us, language knows no boundaries.</p>-->
-          <!--                    <p class="mt-2 mb-2">Official Darisonline agent</p>-->
-          <!--                    <img loading="lazy" width="100%" height="100%"-->
-          <!--                         src="https://www.cambridgeenglish.org/Images/Cambridge_Press_Assessment_Landscape_Logo_RGB-280x55.png"-->
-          <!--                         class="logo"> -->
-        </div>
-
-        <div class="footer__directions px-1 md:px-4 w-full md:w-2/3">
-          <nav class="footer--nav">
-            <ul class=" flex-wrap flex-row flex justify-between footer--nav-content">
-              <li>
-                <a title="Company" href="#" class="footer--nav-link">Company</a>
-                <ul class="footer--nav-content--nested" role="menu">
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">About Us</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="find-teacher.html" class="">Find Tutor</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="payment-method.html" class="">Payment</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="site-information.html" class="">Site
-                      Information</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="conditions.html" class="">Conditions</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <a title="Language" href="#" class="footer--nav-link">Language</a>
-                <ul class="footer--nav-content--nested" role="menu">
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">English</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">Arabic</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a title="How it works" href="#" class="footer--nav-link">How it works</a>
-                <ul class="footer--nav-content--nested" role="menu">
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">Our Platform</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">Resources</a>
-                  </li>
-
-                </ul>
-              </li>
-              <li>
-                <a title="Support" href="#" class="footer--nav-link">Support</a>
-                <ul class="footer--nav-content--nested" role="menu">
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">FAQ</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">Contact Us</a>
-                  </li>
-                  <li>
-                    <a title="Blog" target="_blank" href="#" class="">Content Creators</a>
-                  </li>
-                  <li class="footer-btn hidden md:block">
-                    <a title="Become a teacher" href="login.html" class="dropdown-item">Become a
-                      teacher</a>
-                  </li>
-                </ul>
-              </li>
-              <li style="width: 100%;" class="footer-btn block w-full md:hidden">
-                <a title="Become a teacher" href="login.html" class="dropdown-item">Become a teacher</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="footer_copyright pt-8">
-        <div class="copyright-col text-center">
+            <div class="footer_copyright pt-8">
+                <div class="copyright-col text-center">
                     <span class="sub"
                           style="line-height:2">© Copyright 2023 Darisonline.com - All Rights Reserved</span>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
-  <!-- ======= Footer Section  || END ======= -->
+    </footer>
+    <!-- ======= Footer Section  || END ======= -->
 
 
-  <!-- ======= SCRIPTS ======= -->
-  <script src="./app.js"></script>
-  <!-- ======= SCRIPTS ======= -->
+    <!-- ======= SCRIPTS ======= -->
+    <script src="./app.js"></script>
+    <!-- ======= SCRIPTS ======= -->
 </main>
 </body>
-  </html>
+</html>

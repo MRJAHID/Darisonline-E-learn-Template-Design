@@ -44,3 +44,43 @@ function toggleAside() {
   }
   // document.getElementById("aside").classList.add("left-0");
 }
+
+
+// Modal Show JS
+const dialogBodyList = document.querySelectorAll('dialog.dialog .dialog-body');
+const modalList = document.querySelectorAll('dialog.dialog');
+modalList.forEach((item) => {
+  item.addEventListener('click', () => {
+    setCloseModal(item);
+  });
+});
+dialogBodyList.forEach((item) => {
+  item.addEventListener('click', () => {
+    event.stopPropagation();
+  });
+});
+
+const demoModal = document.getElementById('demo-modal');
+const btnModalShow = document.getElementById('btn-show');
+const btnModalCloseList = document.querySelectorAll('.btn-close');
+const showModalCustom = (incModal) => {
+  incModal.showModal();
+  incModal.classList.add('active');
+};
+const setCloseModal = (incModal) => {
+  incModal.addEventListener('transitionend', closeModal);
+  incModal.classList.remove('active');
+};
+const closeModal = () => {
+  event.target.removeEventListener('transitionend', closeModal);
+  event.target.close();
+};
+btnModalShow.addEventListener('click', () => {
+  showModalCustom(demoModal);
+});
+
+btnModalCloseList.forEach((item) => {
+  item.addEventListener('click', () => {
+    setCloseModal(item.parentElement);
+  });
+});
